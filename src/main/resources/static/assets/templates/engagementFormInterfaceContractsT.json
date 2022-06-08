@@ -1,0 +1,102 @@
+{
+  "dynamicEngFormInterfaceContractsDivData": [
+    {
+	     "panelheader": {
+	     	"value": "10. Interface contracts"
+	     }
+    },
+    {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">Select all user interfaces and the communication channels they use.<\/span> <\/p>"	
+	     }
+	},
+	{
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"looptables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Source",
+				          "Destination",
+				          "Internal/ Extranet/ Internet",
+				          "Protocol",
+				          "Type of data"
+				        ],
+				        "width": [
+				          "1",
+				          "2",
+				          "2",
+				          "2",
+				          "2",
+				          "2"
+				        ],
+				        "paramname":"interfaceContractItems",
+				        "rows": [
+				          [
+				            {
+				              "type": "textarea",
+				              "paramname": "ICId",
+				              "rows": "2"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "ICSource",
+				              "rows": "2"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "ICDestination",
+				              "rows": "2"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "ICNetworkType",
+				              "rows": "2"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "ICProtocol",
+				              "rows": "2"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "ICTypeOfData",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Security testing feedback"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "endUserICComments"
+				     	}
+			        }
+			    }
+			]
+		}
+	 }
+  ]			
+}

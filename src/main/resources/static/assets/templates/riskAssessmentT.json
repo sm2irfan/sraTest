@@ -1,0 +1,599 @@
+{
+  "dynamicRiskAssessmentFormDivData": [
+    {
+	     "panelheader": {
+	     	"value": "Section 3 Risk Pre-Approval Documentation"
+	     }
+    },
+    {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">This section is to be completed by Information Security as the relevant documents and reports are received and reviewed.<\/span> <\/p>"	
+	     }
+	},
+	{
+     	"breakline": true
+    },
+	{
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Solution Documentation and Approvals",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.1"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS31",
+				              "value": "<p><span class=\"panel-span-medium\">Have all solution design and architecture documents, been provided and reviewed?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS31Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS31Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.2"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS32",
+				              "value": "<p><span class=\"panel-span-medium\">Has the Privacy Impact Assessment (PIA) been provided and reviewed?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS32Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS32Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.3"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS33",
+				              "value": "<p><span class=\"panel-span-medium\">Has the OWG recommendations document been provided and reviewed?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS33Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS33Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.4"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS34",
+				              "value": "<p><span class=\"panel-span-medium\">Have approvals been received for all policy deviations?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS34Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS34Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.5"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS35",
+				              "value": "<p><span class=\"panel-span-medium\">Has the Web application Fortify Code Scanning report been provided and reviewed?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS35Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS35Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Security Testing",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.6"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS36",
+				              "value": "<p><span class=\"panel-span-medium\">Has the system undergone security testing prior to production release?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS36Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS36Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.7"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS37",
+				              "value": "<p><span class=\"panel-span-medium\">Has the system/application security testing report been provided and reviewed?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS37Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS37Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.8"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS38",
+				              "value": "<p><span class=\"panel-span-medium\">Have all significant vulnerabilities been resolved?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS38Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS38Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Cloud Security Testing",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.9"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS39",
+				              "value": "<p><span class=\"panel-span-medium\">Has the cloud solution undergone security testing prior to production release?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS39Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS39Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.10"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS310",
+				              "value": "<p><span class=\"panel-span-medium\">Has the cloud solution security testing report been provided and reviewed?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS310Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS310Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.11"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS311",
+				              "value": "<p><span class=\"panel-span-medium\">Have all significant vulnerabilities been resolved?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS311Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS311Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Security Operations",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.12"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS312",
+				              "value": "<p><span class=\"panel-span-medium\">Has the Akamai WAF been deployed to protect the public web site?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS312Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS312Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.13"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS313",
+				              "value": "<p><span class=\"panel-span-medium\">Has the solution been on-boarded into Nessus</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS313Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS313Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.14"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS314",
+				              "value": "<p><span class=\"panel-span-medium\">Has the solution been on-boarded into TPAM</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS314Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS314Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.15"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS315",
+				              "value": "<p><span class=\"panel-span-medium\">Have application/system logs been integrated into the Optus SIEM (ArcSight)</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS315Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS315Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.16"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS316",
+				              "value": "<p><span class=\"panel-span-medium\">Has an ArcSight \"use case\" been built for \"Unauthorised Access\"</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS316Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS316Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.17"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS317",
+				              "value": "<p><span class=\"panel-span-medium\">Has an ArcSight \"use case\" been built for \"Unusual or suspicious activity\"</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS317Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS317Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S3.18"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "RAS318",
+				              "value": "<p><span class=\"panel-span-medium\">Has an ArcSight \"use case\" been built for \"Changes to permissions or system changes\"</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "RAS318Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "RAS318Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Additional comments and Related Information"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "endUserRAAdditComments"
+				     	}
+			        }
+			    }
+			]
+		}
+	 }
+  ]			
+}

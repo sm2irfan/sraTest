@@ -1,0 +1,93 @@
+@import "settings/colours";
+
+@font-face {
+	font-family: "<%= fontName %>";
+	src: url('<%= fontPath %><%= fontName %>.eot');
+	src: url('<%= fontPath %><%= fontName %>.eot?#iefix') format('eot'),
+	url('<%= fontPath %><%= fontName %>.woff') format('woff'),
+	url('<%= fontPath %><%= fontName %>.ttf') format('truetype'),
+	url('<%= fontPath %><%= fontName %>.svg#<%= fontName %>') format('svg');
+}
+
+@mixin icon-styles {
+	font-family: "<%= fontName %>";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+%icon {
+	@include icon-styles;
+}
+
+%icon-background {
+	position: absolute;
+	color: $yellow;
+	display: block;
+	top: 0;
+	left:0;
+	z-index: 1;
+}
+
+%icon-background-base {
+	text-indent: 0;
+	color: $black;
+	position: relative;
+
+	&:before {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+@function icon-char($filename) {
+	$char: "";
+	<% _.each(glyphs, function(glyph) { %>
+	@if $filename == <%= glyph.fileName %> {
+		$char: "\<%= glyph.codePoint %>";
+	}<% }); %>
+
+	@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true, $background: false) {
+	&:#{$insert} {
+		@if $extend {
+		  @extend %icon;
+		} @else {
+		  @include icon-styles;
+		}
+
+		@if $background {
+			@extend %icon-background;
+		}
+
+		content: icon-char($filename);
+	}
+
+	@if $background {
+		@extend %icon-background-base;
+	}
+}
+
+<% var filteredGlyphs = _.filter(glyphs, function (glyph) {
+	// If the glyph ends in 'bg' remove it.
+	return glyph.fileName.indexOf('bg', glyph.fileName.length - 'bg'.length) === -1;
+}); %>
+
+<% _.each(filteredGlyphs, function(glyph) {
+	var hasBackground = _.find(glyphs, { fileName: glyph.fileName + '-bg' }); %>
+.icon-<%= glyph.fileName %> {
+	display: inline-block;
+	@include icon(<%= glyph.fileName %>);
+}
+<% if (hasBackground) { %>
+.icon-<%= glyph.fileName %>-bg {
+	@include icon(<%= hasBackground.fileName %>, after, true, true);
+} <% } %>
+<% }); %>

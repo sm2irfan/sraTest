@@ -1,0 +1,93 @@
+{
+  "dynamicEngFormSolArchitectureReviewDivData": [
+    {
+	     "panelheader": {
+	     	"value": "11. Solution/Architecture Review"
+	     }
+    },
+    {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">To review a solution, it is necessary for you to provide all design documentation promptly for review. Failure to do this may result in delays when carrying out the assessment.<\/span> <\/p>"	
+	     }
+	},
+	{
+     	"breakline": true
+    },
+	{
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "11.1"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SAR111",
+				              "value": "<p><span class=\"panel-span-medium\">Have all solution design and architecture documents, including network diagrams and data flows been provided?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SAR111Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SAR111Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Solution/Architecture Review Feedback (to be filled by InfoSec)"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "endUserSAReviewComments"
+				     	}
+			        }
+			    }
+			]
+		}
+	 }
+  ]			
+}

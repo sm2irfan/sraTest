@@ -1,0 +1,53 @@
+div.show-image {
+  position:relative;
+  margin:0 auto;
+}
+
+div.show-image:hover img {
+  opacity:0.5;
+}
+
+div.show-image:hover button {
+  display:block;
+}
+
+div.show-image button {
+  position:absolute;
+  display:none;
+}
+
+div.show-image button.play {
+  top:35%;
+  left:33%;
+}
+
+div.show-image span.timing {
+  top:87%;
+  left:77%;
+  position:absolute;
+}
+
+div.show-image button.play-carousel {
+  top:35%;
+  left:40%;
+  width:20%;
+  height:20%;
+  background-color:transparent;
+  border:solid black;
+}
+
+div.show-image .play-carousel-icon {
+  font-size:75px;
+  transition:opacity .35s ease;
+}
+
+.play-carousel-timing {
+  position:absolute;
+  top:85%;
+  left:65%;
+  right:4%;
+  font-size:large;
+  white-space:normal;
+  text-align:left;
+}
+

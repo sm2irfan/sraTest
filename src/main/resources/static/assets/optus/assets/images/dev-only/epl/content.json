@@ -1,0 +1,364 @@
+{
+	"content": {
+		"urls": {
+			"createSession": "/api/epl/v1/signup/createSession",
+			"sendCode": "/api/epl/v1/signup/auth/sendCode",
+			"checkService": "/api/epl/v1/signup/auth/checkService",
+			"planStatus": "/api/epl/v1/signup/plan/status/view",
+			"planStatusSet": "/api/epl/v1/signup/plan/status/set",
+			"planList": "/api/epl/v1/signup/plan/list",
+			"confirmBolton": "/api/epl/v1/signup/plan/confirm",
+			"reAuthLogin": "/api/epl/v1/signup/auth/login",
+			"forgotPassword": "/api/epl/v1/signup/auth/reset",
+			"accountStatus": "/api/epl/v1/signup/account/status",
+			"createAccount": "/api/epl/v1/signup/account/create",
+			"reuseLogin": "/api/epl/v1/signup/account/reuseLogin",
+			"confirmStatus": "/api/epl/v1/signup/account/confirmStatus",
+			"manageStatus": "/api/epl/v1/signup/manage/status",
+			"plan_page": "./plan.html",
+			"create_page": "./create.html",
+			"confirm_page": "./confirm.html",
+			"list_page": "./list.html",
+			"manage_page": "./manage.html",
+			"cancel_page": "./cancel.html",
+			"changeEmail_page": "./changeEmail.html",
+			"change_rate_plan_page_MOB": "https://offer.optus.com.au/mobilerpc/",
+			"change_rate_plan_page_BB": "https://offer.optus.com.au/fixedrpc/verification/",
+			"change_rate_plan_page_OWB": "https://offer.optus.com.au/mobilerpc/",
+			"change_rate_plan_page_ERROR": "https://offer.optus.com.au/mobilerpc/",
+			"cancelBolton": "/api/epl/v1/signup/manage/cancel",
+			"changeEmail": "/api/epl/v1/signup/manage/changeEmail",
+			"optusSport": "http://sport.optus.com.au",
+			"myAccount": "https://www.optus.com.au/customercentre/myaccount"
+		},
+		"manage": {
+			"manageHeading": "Manage Subscriptions",
+			"subscriptionStatus": "Subscription status:",
+			"activeUntilText": "Active until",
+			"cancelBtnText": "CANCEL SUBSCRIPTION",
+			"loginText": "Optus Sport Login",
+			"changeEmailText": "Change Email Address",
+			"resetPwdText": "Reset Password",
+			"username": "username",
+			"password": "password",
+			"transferLoginText": "To transfer this log in to a different Optus service",
+			"transferBtnText": "TRANSFER LOGIN",
+			"loginToMyAccText": "Remember, you can log in to <a href=\"https://www.optus.com.au/customercentre/myaccountlogin\">My Account</a> later to manage all your eligible Optus services.",
+			"createLoginBtnText": "CREATE LOGIN",
+			"addBtnText": "ADD SUBSCRIPTION",
+			"subscriptionEnabledText": "subscription is enabled",
+			"createLoginText": "please create a login",
+			"addSubscritpitonText": "subscription is cancelled, please renew",
+			"notActivetext": "This service has been cancelled. Cancellation will occur at the start of your next billinhc cycle. Until then you can still enjoy access to Optus sport.",
+			"billingText": "<p>Your optus sport access is billed at <strong>[boltonPrice] monthly</strong></p>",
+			"listHintText": "Don't see all your services here? You can check their eligibility <a href=\"https://manage.sport.optus.com.au/signup/index.html\">here</a>.",
+			"manageServices": {
+				"cancel" : {
+					"iconType": "stop",
+					"subscriptionTitle": "Cancel subscription",
+					"subscriptionText": "Take a break from your subscription, or cancel it permanently.",
+					"pageLink": "cancel_page"
+				},
+				"renew" : {
+					"iconType": "update",
+					"subscriptionTitle": "Renew subscription",
+					"subscriptionText": "Renew your subscription on a current connected service.",
+					"pageLink": "renew_page"
+				},
+				"changeEmail" : {
+					"iconType": "email",
+					"subscriptionTitle": "Change email address",
+					"subscriptionText": "Take a break from your subscriptions, or cancel it permanently.",
+					"pageLink": "changeEmail_page"
+				}
+			}
+		},
+		"vimondLoginReauth": {
+			"forgotPwdText": "Forgot password?",
+			"buttonText": "Submit",
+			"beforeEmailButtonText": "YES",
+			"beforeEmailText": "Would you like us to send you an email with a link to reset your password?",
+			"afterEmailButtonText": "OK",
+			"afterEmailText": "Instructions for setting a new password were successfully sent to your email",
+			"loginText": "Please confirm your login details",
+			"reAuthText": "For your security we ask you that you re-enter the email address and password you use to log into optus sports",
+			"passwordResetErrorMsg": "please try again after some time"
+		},
+		"message": {
+			"titleText": "Is your current service Optus Sport ready?",
+			"subtitleText": "Optus is offering a range of mobile, mobile broadband and home broadband plans that are eligible for Optus Sport access.",
+			"titleInitial": "You can check the eligibility of each existing service you hold below:",
+			"subtitleInitial": "<strong>NOT AN OPTUS CUSTOMER?</strong> <a href=\"http://optus.com.au\" target=\"_blank\" title=\"Click Here\">Check out the range of plans</a> with Optus Sport access",
+			"mobileTabName": "Postpaid mobile",
+			"broadbandTabName": "Broadband",
+			"mbbtTabName": "Mobile Broadband and Tablet",
+			"mobileTitle": "Postpaid mobile",
+			"broadbandTitle": "Broadband",
+			"mbbtTitle": "Mobile Broadband and Tablet",
+			"mobileInputLabel": "Mobile Number",
+			"orderidInputLabel": "Order ID",
+			"dobInputLabel": "Account Holder date of birth",
+			"broadbandInputLabel": "Internet Username OR Home phone number OR Order Number",
+			"mbbtInputLabel": "Mobile Broadband Service Number or Order Number",
+			"postcodeInputLabel": "Postcode (Billing Address)",
+			"accountHolderText": "I am the Account Holder for this service",
+			"codeSentTitle": "Your six digit code has been sent!",
+			"codeSentText": "The code is vaild for the next 10 minutes.",
+			"codeResentText": "We've resent your code.",
+			"smsSubmitText": "SMS CODE TO ME",
+			"submitText": "Next",
+			"resendCodeText": "Resend Code",
+			"codeInputPlaceholder": "Enter Code",
+			"serviceHeaderTextMobile": "Don't have an Optus postpaid mobile service? <a href=\"http://www.optus.com.au/shop/mobile/phones?sid=sport:epl:elig:postmob\" title=\"Optus Mobile Plan\" target=\"_blank\">View phones</a>",
+			"serviceHeaderTextBroadband": "Don't have an Optus broadband service? <a href=\"http://www.optus.com.au/shop/broadband/home-broadband/plans?sid=sport:epl:elig:fixed\" title=\"Optus Broadband Plan\" target=\"_blank\">View broadband plans</a>",
+			"serviceHeaderTextMobileBroadband": "Don't have an Optus mobile broadband service? <a href=\"http://www.optus.com.au/shop/broadband/mobilebroadband/data-sim-card?sid=sport:epl:elig:mbb\" title=\"Optus Mobile Broadband Plan\" target=\"_blank\">View mobile broadband plans</a>",
+			"bottomMessageAdded": "The full Terms and Conditions can be viewed <a href=\"http://www.optus.com.au/content/dam/optus/appendix/appendix-o/AppO.doc\" target=\"_blank\" title=\"terms and conditions\">here</a>. You can also review our <a href=\"http://www.optus.com.au/about/legal/privacy\" target=\"_blank\" title=\"Privacy policy\">Privacy Policy</a>."
+		},
+		"validationMessage": {
+			"mobileNumberRequired": "Invalid Optus postpaid mobile number",
+			"orderidRequired": "Please enter Order ID",
+			"serviceidRequired": "Please enter Username or Account Number or homephone Number",
+			"invalidDob": "Please enter valid date of birth",
+			"invalidDate": "Please enter valid date",
+			"postcodeRequired": "Please enter a postcode",
+			"codeLengthCheck": "Please enter 6 digit code",
+			"codeRequired": "Please enter a verification code"
+		},
+		"tooltip": {
+			"broadband": {
+				"header": "There are a few methods we use to retrieve your account information.",
+				"content": "You can use an area code + landline number, or your Internet Username. (The Internet Username is the name before @optusnet in your email address - it was created when you first registered with us.) <br/><br/>If you've forgotten your Username, call Customer Care on 133 937."
+			},
+			"mobileBroadband": {
+				"content": "You can find your mobile broadband Service Number under service charges on your bills.",
+				"src": "//static.optus.com.au/lux/optussd/assets/images/epl/eligibility/img-epl-lightbox-mbb.0b00ddc421ebb06e2b1ab9d1816fce96.jpg",
+				"alt": "Mobile Broadband Account Number"
+			}
+		},
+		"header": {
+			"logoLarge": "//static.optus.com.au/lux/optussd/assets/images/epl/logo/optus-sport-logo-sm.06278d885e94b53f0b6b59eccbba5163.png",
+			"logoMedium": "//static.optus.com.au/lux/optussd/assets/images/epl/logo/optus-sport-logo-sm.06278d885e94b53f0b6b59eccbba5163.png",
+			"logoAlt": "Optus Sport",
+			"logoTitle": "Optus Sport",
+			"navigationModel": {
+				"parentPageUrl": "https://sport.optus.com.au/"
+			}
+		},
+		"tabMenu": {
+			"isDataModel": true,
+			"labels": [
+				{
+					"label": "<div class=\"ux-icon\"><span class=\"icon icon-mobile tab-icon\" aria-hidden=\"true\"></span></div>Postpaid mobile</a>"
+				},
+				{
+					"label": "<div class=\"ux-icon\"><span class=\"icon icon-broadband tab-icon\" aria-hidden=\"true\"></span></div>Broadband</a>"
+				},
+				{
+					"label": "<div class=\"ux-icon\"><span class=\"icon icon-mobile-broadband tab-icon even\" aria-hidden=\"true\"></span></div><div class=\"ux-icon\"><span class=\"icon icon-tablet tab-icon odd\" aria-hidden=\"true\"></span></div>Mobile Broadband and Tablet"
+				}
+			]
+		},
+		"groupRadioBtns": {
+			"selected": "mobile",
+			"options": [
+				{
+					"label": "Optus postpaid mobile number",
+					"value": "mobile",
+					"btn_id": "mobileBtn"
+				},
+				{
+					"label": "Order Number for new Optus mobile",
+					"value": "orderid",
+					"btn_id": "orderidBtn"
+				}
+			]
+		},
+		"footer": {
+			"text": "ux-footer",
+			"copyrightsText": "© 2016 Singtel Optus Pty Limited",
+			"footerContentBottom": {
+				"items": [
+					{
+						"label": "optus.com.au",
+						"href": "http://www.optus.com.au"
+					},
+					{
+						"label": "Privacy",
+						"href": "http://www.optus.com.au/about/legal/privacy"
+					},
+					{
+						"label": "Terms",
+						"href": "http://www.optus.com.au/about/legal"
+					},
+					{
+						"label": "Copyright",
+						"href": "http://www.optus.com.au/about/legal/copyright"
+					},
+					{
+						"label": "Contact Us",
+						"href": "http://www.optus.com.au/contactus"
+					}
+				]
+			}
+		},
+		"sidebarImage": [
+			{
+				"urls": "./assets/images/epl/eligibility/img-epl-side-banner.png",
+				"description": "Optus Sport",
+				"title": "Optus Sport"
+			}
+		],
+		"faq": {
+			"title": "Nitty Gritty",
+			"content": "Optus Sport is available for personal viewing in Australia only on selected plans. Content varies by device."
+		},
+		"errors": {
+			"1": "We are experiencing technical difficulties, please try again later.",
+			"2": "We are experiencing technical difficulties, please try again later.",
+			"101": "We are experiencing technical difficulties, please try again later.",
+			"110": "This username is already in use. Please try again.",
+			"111": "We are experiencing technical difficulties, please try again later.",
+			"112": "We are experiencing technical difficulties, please try again later.",
+			"113": "This username is already in use. Please try again.",
+			"114": "We are experiencing technical difficulties, please try again later.",
+			"911": "The service you've tried to check is not available. If you'd like to get access to the Optus Sport, please enter details for an active service, or purchase a new, eligible plan.",
+			"Could not send Message.": "We are experiencing technical difficulties",
+			"GENERIC_ERROR_MESSAGE": "We are experiencing technical difficulties, Please try again.",
+			"GENERIC_SYSTEM_FAULT": "We've encountered a problem, and we're working to rectify it as soon as possible. Please try again later.",
+			"TOO_MANY_SMSES_SENT": "You have unsuccessfully entered the SMS code 3 times. For security purposes, you will not be able to make another attempt for 24 hours.",
+			"SECURITY_CODE_EXPIRED": "Your SMS code has expired. Please request a new SMS code.",
+			"SECURITY_CODE_DOESNT_MATCH": "Invalid SMS code entered. Please try again.",
+			"SECURITY_INCORRECT_STATUS": "We're having trouble authenticating your details. Please try again",
+			"EMAIL_ALREADY_TAKEN": "this email address is not available. please try again with a different address.",
+			"VIM-003": "User/Email is exists; request is same.",
+			"SDP-004": "Optus Sport already assigned to this User.",
+			"EPL_TOKEN_001": "We're having trouble authenticating your details. Please select the Optus service your Optus Sport subscription is associated with, and re-enter your details below.",
+			"EPL_SERVICEID_EXISTS_001": "There is already an Optus Sport subscription associated with this Optus service. You can log into your Optus Sports* account, or try again with a different Optus service.",
+			"EPL_RATE_PLAN_CMBS_002": "We've encountered a problem, and we're working to rectify it as soon as possible. Please try again later.",
+			"EPL_TOKEN_002": "We're having trouble authenticating your details. Please select the Optus service your Optus Sport subscription is associated with, and re-enter your details below.",
+			"EPL_TOKEN_003": "The link you have used is expired, and we're having trouble recognising your details. Please select the Optus service your Optus Sport subscription is associated with, and re-enter your details below.",
+			"EPL_SERVICEID_EXISTS_002": "The service you‚'ve tried to check is not available. If you'd like to get access to the Optus Sport, please enter details for an active service, or purchase a new, eligible plan.",
+			"EPL_DB_ERROR_002": "The service you've tried to check is not available. If you'd like to get access to the Optus Sport, please enter details for an active service, or purchase a new, eligible plan.",
+			"EPL_DATA_MATCHING_ERROR_001": "The service you've tried to check is not available. If you'd like to get access to the Optus Sport, please enter details for an active service, or purchase a new, eligible plan.",
+			"EPL_OIETS_INVALID_DATA_001": "The service you've tried to check is not available. If you'd like to get access to the Optus Sport, please enter details for an active service, or purchase a new, eligible plan.",
+			"EPL_OIETS_DATA_SERVICE_TYPE_001": "The service you've tried to check is not available. If you'd like to get access to the Optus Sport, please enter details for an active service, or purchase a new, eligible plan.",
+			"EPL_RATE_PLAN_UPC_001": "We've encountered a problem, and we're working to rectify it as soon as possible. Please try again later.",
+			"EPL_RATE_PLAN_UPC_002": "Unfortunately, your current plan is not eligible for Optus Sport.",
+			"EPL_RATE_PLAN_UPC_003": "We've encountered a problem, and we're working to rectify it as soon as possible. Please try again later.",
+			"EPL_RATE_PLAN_ERROR_001": "We've encountered a problem, and we're working to rectify it as soon as possible. Please try again later.",
+			"EPL_OIETS_FAILED_001": "We've encountered a problem, and we're working to rectify it as soon as possible. Please try again later.",
+			"EPL_OMP_FAILED_001": "We've encountered a problem, and we're working to rectify it as soon as possible. Please try again later.",
+			"EPL_CUSTOMER_OLAP_001": "We've encountered a problem, and we're working to rectify it as soon as possible. Please try again later.",
+			"EPL_DONWSTREAM_001": "We've encountered a problem, and we're working to rectify it as soon as possible. Please try again later.",
+			"already_registered": "<div class=\"row\"><div class=\"epl-refresh-block columns\"><h3>There is already an Optus Sport subscription associated with this Optus service.</h3> </div> <div class=\" columns\"><p>You can log into your Optus Sport account, or try again with a different Optus service.</p></div></div>",
+			"SESSION_EXPIRED": "<div class=\"row\"><div class=\"epl-refresh-block columns\"><h3>Your session has expired.</h3></div> <div class=\" columns\"><p>You can try again via your Optus Sport welcome email, or restart the session.</p></div></div> <div class=\"row\"><div class=\"epl-refresh-bottom-block columns\"><input class=\"ux-button button epl-default-btn\" type=\"button\" value=\"Refresh this page\" onclick=\"window.location.href='./index.html'\"></div></div>",
+			"SERVER_IS_BUSY": "<div class=\"row \"><div class=\"epl-refresh-block columns\"><h3>We've encountered a problem, and we're working to rectify it as soon as possible.</h3></div> <div class=\" columns\"><p> Please try again later.</p></div></div> <div class=\"row \"><div class=\"epl-refresh-bottom-block columns\"><input class=\"ux-button button epl-default-btn\" type=\"button\" value=\"Refresh this page\" onclick=\"window.location.href='./index.html'\"></div></div>",
+			"JWT_TOKEN_TIMEOUT": "<h3>Your session has expired.</h3> Please try again through My Account or My Optus app.",
+			"SERVICE_TYPE_DOESNT_MATCH": "You have entered the number for an Optus mobile broadband service. Please check the eligibility of this service under Mobile Broadband and Tablet.",
+			"USER_NAME_ALREADY_IN_USE": "This username is already in use; please create a new login",
+			"USER_CREDENTIALS_NOT_FOUND": "The username you have entered was not found. Please create a new login.",
+			"ACTIVE_SUBSCRIPTION_EXISTS": "You already have an active subscription. Please log in with your existing details, or create a new account.",
+			"RECORD_NOT_FOUND": "We can’t find an Optus service associated with these details.",
+			"USER_MULTIPLE_VALIDATION_ERRORS": "We don’t recognise the login details you’ve provided. Please check your details and try again.",
+			"EPL_ERR_007": "The login details you’ve provided are already associated with another service; please transfer or cancel your subscription to proceed."
+		},
+		"included": {
+			"text": "Eligible for a subscription at no additional cost.",
+			"subText": "per month",
+			"subIcon": "tick",
+			"buttonText": "add",
+			"dotColor": "yellow",
+			"contentText": ""
+		},
+		"added": {
+			"text": "Eligible for a paid subscription.",
+			"subText": "per month",
+			"subIcon": "",
+			"buttonText": "add",
+			"titleAdded": "Your plan is eligible for an Optus Sport Subscription, priced at $15 per month.",
+			"subtitleAdded": "The subscription continues on a month-to-month basis, and you can cancel any time.",
+			"termsandconditions": "I confirm that I have read the <a href=\"http://www.optus.com.au/content/dam/optus/appendix/appendix-o/AppO.doc\" target=\"_blank\" title=\"terms and conditions\">terms and conditions</a> and the <a href=\"http://www.optus.com.au/about/legal/privacy\" target=\"_blank\" title=\"Privacy policy\">privacy policy</a>",
+			"bottomTitleAdded": "Add Optus Sport to your plan",
+			"btnAddToEpl": "ADD OPTUS SPORT",
+			"dotColor": "yellow",
+			"contentText": "<div class=\"epl-list-style-title\"><p><strong>You will enjoy:</strong></p></div><ul class=\"epl-list-style-li\"><li>Every match of the Premier League, exclusively live</li><li>Access to the Optus Sport app for smartphones and tablets</li><li>Premier League player stats, tables, results and fixtures</li><li>Cricket content, including exclusive extended highlights, fixtures, results, match analysis and more</li></ul>"
+		},
+		"not_eligible": {
+			"text": "Not eligible.",
+			"subText": "You may be able to change your plan to get Optus Sport.",
+			"subIcon": "cross",
+			"buttonText": "change plan",
+			"dotColor": "red",
+			"contentText": "<h2 class=\"epl-notEligible-title\">Current plan not eligible</h2> <h4 class=\"epl-notEligible-subtitle\">Unfortunately, your current plan is not eligible for Optus Sport.</h4> <p class=\"epl-notEligible-text\">If you would like to change this plan to one that is eligible for Optus Sport access, simply head to the Optus store online and we'll help you find a great eligible plan.</p></div></div> <div class=\"row epl-content-notEligible\"><div class=\"columns\"> <input class=\"ux-button button epl-default-btn\" type=\"button\" value=\"Change my plan\" onclick=\"window.location.href='https://offer.optus.com.au/mobilerpc/'\"> </div> <div class=\"columns\"><a class=\"ux-anchor epl-check-account-btn\" href=\"./\">Check eligibility of another service</a>"
+		},
+		"already_registered": {
+			"text": "already registered",
+			"subText": "already registered",
+			"subIcon": "confirm-tick",
+			"buttonText": "manage",
+			"dotColor": "green",
+			"enabled": "Subscription is enabled.",
+			"cancelled": "Subscription is cancelled.",
+			"accessDate": "You have access to Optus Sport until ",
+			"login": "You must create a login to gain access.",
+			"createLogin": "No log in associated with this service. Click 'Manage' to create one."
+		},
+		"prepaid": {
+			"text": "Your prepaid service is not eligible for Optus Sport access",
+			"subText": "not eligible",
+			"subIcon": "cross",
+			"buttonText": "Upgrade",
+			"dotColor": "red",
+			"contentText": "<h2 class=\"epl-notEligible-title\">Current plan not eligible</h2> <h4 class=\"epl-notEligible-subtitle\">Unfortunately, your current plan is not eligible for Optus Sport.</h4> <p class=\"epl-notEligible-text\">If you would like to change this plan to the one that is eligible for Optus Sport, simply head to the Optus store online and we'll help you find a great plan. Remember - an Optus Sport subscription is included at no extra cost on eligible plans $85 and above.</p></div></div> <div class=\"row epl-content-notEligible\"><div class=\"columns\"> <input class=\"ux-button button epl-default-btn\" type=\"button\" value=\"Change my plan\" onclick=\"window.location.href='https://offer.optus.com.au/mobilerpc/'\"> </div> <div class=\"columns\"><a class=\"ux-anchor epl-check-account-btn\" href=\"./\">Check eligibility of another service</a>"
+		},
+		"subscribeHeading": "Optus Sport Subscription Status",
+		"registration": {
+			"tokenMessage": "",
+			"textWhenBelowThreshold": "<h2>Great News.</h2><h4>An Optus Sport subscription has been added to your account. </h4><p><strong>The only thing remaining is for you to create your Optus Sport login details below.</strong></p>",
+			"textWhenAboveThreshold": "<h2>Great News.</h2><h4>An Optus Sport subscription is included at no extra charge.</h4><p class=\"epl-signup-subtitle\">Your current service has an Optus Sport subscription included at no extra charge.<br/>The subscription starts immediately, and you can cancel at any time.<br/></p><div class=\"epl-list-style-title\"><p><strong>You will enjoy:</strong></p></div><ul class=\"epl-list-style-li\"><li>Every match of the Premier League, exclusively live</li><li>Access to the Optus Sport app for smartphones and tablets</li><li>Premier League player stats, tables, results and fixtures</li><li>Cricket content, including exclusive extended highlights, fixtures, results, match analysis and more</li></ul><p><strong>The only thing remaining is for you to create your Optus Sport login below.</strong></p>",
+			"planPriceThreshold": 8500,
+			"modalTextObj": {
+				"reuseLoginText":"Reuse an existing login",
+				"inUseText": "The username is already in use",
+				"createLoginText": "Please create a new login",
+				"createLoginBtnText": "create new login",
+				"modalTextOnCancelled": "The username is in use with a cancelled [plan name] service that expires on [date]",
+				"newServiceInfoText": "Would you like to transfer the login to the new service?",
+				"transferLoginInfoText": "By selecting \"yes, transfer login\", it will no longer be linked to your [plan name]",
+				"yesBtnText": "yes, transfer login",
+				"noBtnText": "NO, Create Login"
+			},
+			"TextByServiceType": {
+				"MOB": "<div class=\"columns\"><div style=\"background:#f5f5f5;padding-top:15px;padding-bottom:30px;padding-left:20px;padding-right:20px;\"><div class=\"row bg-light-grey\"><div class=\"columns large-6\"><p><h5>Want the big screen experience for Optus Sport?</h5></p><p>Optus mobile customers can get closer to the action on their big screen with Yes TV by Fetch Mini, Apple TV or Chromecast. Yes TV by Fetch Mini is available for use over a fixed internet connection only (Data charges will apply from your internet service provider) and additional charges of $5 per month apply.</p><p><a target=\"_blank\" href=\"http://www.optus.com.au/shop/entertainment/tv-movies/fetch-tv/set-top-boxes#!yes-tv-by-fetch-mini\" title=\"Fetch mini\">Add Yes TV by Fetch Mini</a></p></div><div style=\"text-align:center; padding-bottom:20px\" class=\"columns large-6 show-for-medium-down\"><img src=\"http://www.optus.com.au/opfiles/Shop/Consumer/EPL/Images/Fetch_mini.png\" alt=\"Premier League on Yes TV by Fetch mini\" title=\"Premier League on Yes TV by Fetch mini\"></div><div class=\"columns large-6 hide-for-medium-down\" style=\"padding-top:30px;\"><img src=\"http://www.optus.com.au/opfiles/Shop/Consumer/EPL/Images/Fetch_mini.png\" alt=\"Premier League on Yes TV by Fetch mini\" title=\"Premier League on Yes TV by Fetch mini\"></div></div></div></div>",
+				"BB": "<div class=\"columns\"><div style=\"background:#f5f5f5;padding-top:15px;padding-bottom:30px;padding-left:20px;padding-right:20px;\"><div class=\"row bg-light-grey\"><div class=\"columns large-6\"><p><strong>Are you a home broadband customer?</strong></p><h3>Want the big screen experience for Optus Sport? </h3><a target=\"_blank\" href=\"https://offer.optus.com.au/fixedrpc/verification/\" title=\"verification\">Add Yes TV by Fetch</a></div><div class=\"columns large-6 show-for-medium-down\" style=\"text-align:center; padding-bottom:20px\"><img src=\"http://www.optus.com.au/opfiles/Shop/Consumer/EPL/Images/gen_3.png\" alt=\"Premier League on Yes TV by Fetch Mighty\" title=\"Premier League on Yes TV by Fetch Mighty\"></div><div style=\"padding-top:40px;\" class=\"columns large-6 hide-for-medium-down\"><img src=\"http://www.optus.com.au/opfiles/Shop/Consumer/EPL/Images/gen_3.png\" alt=\"Premier League on Yes TV by Fetch Mighty\" title=\"Premier League on Yes TV by Fetch Mighty\"></div><div class=\"column\"><p><small>Optus home broadband customers can get closer to the action on their big screen with Yes TV by Fetch (additional charges may apply) or using Apple TV and Chromecast.</small></p></div></div></div></div>",
+				"OWB": "",
+				"ERROR": "<div class=\"columns\"><div style=\"background:#f5f5f5;padding-top:15px;padding-bottom:30px;padding-left:20px;padding-right:20px;\"><div class=\"row bg-light-grey\"><div class=\"columns large-6\"><p><h5>Want the big screen experience for Optus Sport?</h5></p><p>Optus mobile broadband customers can get closer to the action on their big screen with an Apple TV or Chromecast device. Alternatively, you can add a new Optus postpaid mobile phone or fixed broadband plan to your account, and take advantage of a range of Yes TV by Fetch products.</p><p><a target=\"_blank\" href=\"http://www.optus.com.au/shop/entertainment/tv-movies/fetch-tv/set-top-boxes#!yes-tv-by-fetch-mini\" title=\"Fetch mini\">Add Yes TV by Fetch Mini</a></p></div><div style=\"text-align:center; padding-bottom:20px\" class=\"columns large-6 show-for-medium-down\"><img src=\"./images/Fetch_mini.png\" alt=\"Fetch Mini\"></div><div class=\"columns large-6 hide-for-medium-down\" style=\"padding-top:30px;\"> <img src=\"./images/Fetch_mini.png\" alt=\"Fetch Mini\"></div></div></div></div>"
+			},
+			"contentText": "<h1>Great news.</h1><h3>Optus Sport is included at no extra charge.</h3><h5 class=\"epl-signup-subtitle\">Your current service has an Optus Sport subscription included at no extra charge.</h5><h5>The subscription starts immediately, and you can cancel at any time.</h5><div class=\"epl-list-style-title\"><p><strong>You will enjoy:</strong></p></div><ul class=\"epl-list-style-li\"><li>All 380 matches exclusively live, highlights and match replays</li><li>The new Optus Premier League app for smartphones and tablets</li><li>Up-to-the-minute player stats, league tables and fixtures</li></ul><p><strong>The only thing remaining is for you to create your Premier League login details below.</strong></p>",
+			"buttonText": "change plan",
+			"bottomHtmlContent": "<div class=\"column\"><h5>Here's how you can start watching the amazing sporting action on Optus Sport:</h5><div class=\"column large-4\"><div class=\"ux-icon\"><span style=\"color:#006280;\" class=\"icon icon-laptop xl\"></span></div><div><p style=\"margin-bottom:3px;\"><label style=\"cursor:auto;\">Watch online now</label></p><p>Click <a target=\"_blank\" href=\"https://sport.optus.com.au/\" title=\"Optus Sport\">here</a> to start watching on the website.</p></div><p></p></div><div class=\"column large-4\"><div class=\"ux-icon\"><span class=\"icon icon-mobile xl\" style=\"color:#006280;\"></span></div><p style=\"margin-bottom:3px;\"><label style=\"cursor:auto;\">Download the app</label></p><p style=\"margin-bottom:10px;\"><a href=\"https://itunes.apple.com/au/app/optus-sport/id1113368382\" target=\"_blank\" title=\"Optus Sport App Store\"><img src=\"http://www.optus.com.au/opfiles/Shop/Consumer/EPL/Images/app_store.png\" alt=\"Optus Sport App Store\"></a></p><p style=\"margin-bottom:0px;\"><a href=\"https://play.google.com/store/apps/details?id=au.com.optus.sport\" target=\"_blank\" title=\"Optus Sport Android\"><img src=\"http://www.optus.com.au/opfiles/Shop/Consumer/EPL/Images/Google_play.png\" alt=\"Optus Sport Android\"></a></p></div><div class=\"column large-4\"><div class=\"ux-icon\"><span class=\"icon icon-tv xl\" style=\"color:#006280;\"></span></div><p style=\"margin-bottom:3px;\"><label style=\"cursor:auto;\">Got Yes TV by Fetch?</label></p><p>Remember to reset your set top box for the Optus Sport channels to appear.</p><p>Click <a href=\"https://yescrowd.optus.com.au/t5/custom/page/page-id/EPL-Support/Answer?id=6995\" target=\"_blank\">here</a> to find out about supported devices and browsers.</p></div></div>",
+			"bottomTitleSignup": "Create your Optus Sport login",
+			"termsAndConditionsLabel": "The full Terms and Conditions can be viewed <a href=\"http://www.optus.com.au/content/dam/optus/appendix/appendix-o/AppO.doc\" target=\"_blank\" title=\"terms and conditions\">here</a>. You can also review our <a href=\"http://www.optus.com.au/about/legal/privacy\" target=\"_blank\" title=\"Privacy policy\">Privacy Policy</a>.",
+			"termsText": "As a term and condition of subscribing to Optus Sport, Optus will from time to time send you marketing messages which we feel may be of interest. You can manage your marketing preference at any time by going to <a href=\"http://optus.com.au/intouch\" target=\"_blank\" title=\"Optus in touch\">optus.com.au/intouch</a>.",
+			"submitButtonText": "CREATE OPTUS SPORT ACCOUNT",
+			"registrationSuccessText": "<h2>You’re ready</h2><h4>You’re now subscribed to Optus Sport.</h4><a class=\"button epl-default-btn\" href=\"http://sport.optus.com.au\">START WATCHING</a>",
+			"verificationResentText": "<h2>We've resent your verification email.</h2><p>Your Optus Sport verification email has been resent to</p><p>Please click on the link in the email to verfify and complete your account creation.</p><p>You will be taken to the login page - simply enter your details to log in and begin your Optus Sport experience.</p><a class=\"ux-anchor btn-resendVerification\" href=\"#\" title=\"Resend Email Verification\">Resend verification email</a>"
+		},
+		"cancelSubscription": {
+			"title": "Cancel subscription",
+			"backLink": "Back",
+			"subtitle": "Please confirm the cancellation of this subscription.",
+			"message": "This cancellation will occur at the start of your next billing cycle on [expiryDate].<br> Untill then, you will have access to Optus Sport.",
+			"ConfirmBtnText": "Confirm",
+			"note": "Please note: Cancelling your Optus Sport subscription will not cancel any Fetch products associated with your service."
+		},
+		"changeEmail": {
+			"title": "Change email address",
+			"subTitle": "Change the email address you use when logging into Optus Sport",
+			"notification": "We just sent a notification email to the Optus Account holder.",
+			"loginMessage": "From now on, log in to Optus Sport using ",
+			"successMessage": "The email address was changed successfully.",
+			"backLink": "Back to user settings"
+		}
+	}
+}

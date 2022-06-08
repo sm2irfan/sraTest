@@ -1,0 +1,99 @@
+{
+  "dynamicEngFormEntRepDatabaseDiv": [
+  	{
+	     "panelheader": {
+	     	"value": "3. Enterprise Repository Database (MEGA database)"
+	     }
+    },
+    {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">EA Repository captures the interdependency between business processes, applications, infrastructure and data as well as the associated IT cost, business risks and impacts, and vendor end of life support. The repository also holds both the domain and enterprise level architecture and can outline both the short and long term roadmaps with an associated transition plan.<\/span> <\/p>"	
+	     }
+	},
+	{
+     	"breakline": true
+    },
+	{
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Enterprise Repository",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "3"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "ERD3",
+				              "value": "<p><span class=\"panel-span-medium\">Has the application been registered in MEGA database and the information is up-to-date?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "ERD3Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "ERD3Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">If the answer to the above question is 'NO', please engage <a href=\"mailto:ITEnterpriseArchitecture@optus.com.au\">IT Enterprise Architecture<\/a> to update the EA Repository <\/span> <\/p> <p> <span class=\"panel-span-medium\">EA Quick Links &amp; Forms : <a href=\"https:\/\/espresso.sg.singtelgroup.net\/depts\/enterprisearchitecture\/SitePages\/quick_links.aspx\">Quick Links<\/a> <\/span> <\/p>"	
+	     }
+	  },
+	  {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "MEGA database reference"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "endUserERDComments"
+				     	}
+			        }
+			    }
+			]
+		}
+	 }
+  ] 				
+}

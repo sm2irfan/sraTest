@@ -1,0 +1,1313 @@
+{
+  "dynamicEngFormAppPfSecurityDivData": [
+  	{
+	     "panelheader": {
+	     	"value": "5. Application / platform security questions"
+	     }
+     },
+     {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">We need to know how user access is carried out. For full details of identification and authentication requirements, refer to the <a href=\"https:\/\/espressoau.singtelgroup.net\/depts\/infosec\/InfoSec%20Policies%20Standards%20%20Guidelines\/Information%20Security%20Standard%20-%20Access%20Control.docx\">Optus Identification and Authentication standards<\/a> document. <\/span> <\/p>"
+	     }
+	 },
+	 {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Identification and Authentication",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "5.1"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "APS51",
+				              "value": "<p><span class=\"panel-span-medium\">Does the application / platform have any user interface (for employees or Optus customers)?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "APS51Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureAA1"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "APS51Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "5.2"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "APS52",
+				              "value": "<p><span class=\"panel-span-medium\">Does the application / platform have any privileged accounts (not managed by Optus TPAM)?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "APS52Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureAA2"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "APS52Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "5.3"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "APS53",
+				              "value": "<p><span class=\"panel-span-medium\">Does the application / platform have any service or machine-to-machine accounts or API keys?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "APS53Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureAA3"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "APS53Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "5.4"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "APS54",
+				              "value": "<p><span class=\"panel-span-medium\">Does the application / platform have any account not linked to Optus Active Directory / TACACS?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "APS54Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureAA4"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "APS54Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "5.5"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "APS55",
+				              "value": "<p><span class=\"panel-span-medium\">Does the application / platform have any users not managed by UAM tool?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "APS55Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureAA5"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "APS55Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "5.6"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "APS56",
+				              "value": "<p><span class=\"panel-span-medium\">Are all usernames and passwords transmitted via secure protocols (HTTPS, SSH, LDAPs)?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "APS56Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "APS56Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	]
+	     }
+	 },
+	 {
+	     "breakline": "true"
+	 },
+     {
+	     "paneldefault": {
+	     	"dependencynameslist": ["AnnexureAA1","AnnexureAA2","AnnexureAA3","AnnexureAA4","AnnexureAA5"],
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Annexure A - Identification and Authentication"
+				     }
+			    },
+			    {
+				    "panelbody": {
+				    	"type": "panelcontent",
+				     	"value": [
+				     		{
+					     		"panelbody": {
+					     			"type":"paneltext",
+							     	"value": "<p><span class=\"panel-span-medium\"><strong>For full details of identification and authentication requirements, refer to the Optus Identification and Authentication standards document.<strong><\/span><\/p>"
+							     }
+						     },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureAA1"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "A.1",
+										          "Generic Identification and Authentication Requirements",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.1.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA1A11",
+										              "value": "<p><span class=\"panel-span-medium\">Are all usernames and passwords transmitted via secure protocols (HTTPS, SSH, LDAPs)?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA1A11Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA1A11Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.1.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA1A12",
+										              "value": "<p><span class=\"panel-span-medium\">The system must be capable of providing the status, e.g., active, inactive, revoked, etc., of any valid user ID.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA1A12Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA1A12Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.1.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA1A13",
+										              "value": "<p><span class=\"panel-span-medium\">Vendor/Manufacturer default passwords must be changed and new ones must comply with the Information Security password standard.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA1A13Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA1A13Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.1.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA1A14",
+										              "value": "<p><span class=\"panel-span-medium\">The transmission of a password or password hash must only occur over secure communication paths.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA1A14Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA1A14Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.1.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA1A15",
+										              "value": "<p><span class=\"panel-span-medium\">The system must disconnect or re-authenticate users after a specified period of inactivity.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA1A15Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA1A15Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.1.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA1A16",
+										              "value": "<p><span class=\"panel-span-medium\">An incorrect logon must not reveal which component failed validation.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA1A16Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA1A16Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.1.7"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA1A17",
+										              "value": "<p><span class=\"panel-span-medium\">The system must protect the storage of access credentials from Unauthorised Access or modification. The credentials must not be stored in clear text.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA1A17Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA1A17Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureAA2"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "A.2",
+										          "Application privileged accounts password requirements",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.2.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA2A21",
+										              "value": "<p><span class=\"panel-span-medium\">No single user should know the full password\/keys. This can be achieved by:<\/span><\/p> <ol> <li> <p><span class=\"panel-span-medium\">Split knowledge control: passwords of privileged user must be split among two people<\/span><\/p> <\/li> <li> <p><span class=\"panel-span-medium\">Dual Control: operation is split among two people<\/span><\/p> <\/li> <\/ol>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA2A21Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA2A21Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.2.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA2A22",
+										              "value": "<p><span class=\"panel-span-medium\">Pass phrase/password/key must be changed every 90 days</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA2A22Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA2A22Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.2.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA2A23",
+										              "value": "<p><span class=\"panel-span-medium\">Privileged user access must be granted for limited time (not permanently)</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA2A23Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA2A23Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.2.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA2A24",
+										              "value": "<p><span class=\"panel-span-medium\">Every change must be logged in ticketing system with detailed implementation plan.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA2A24Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA2A24Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.2.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA2A25",
+										              "value": "<p><span class=\"panel-span-medium\">Authorized personnel's must use the privileged accounts on demand along with approvals.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA2A25Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA2A25Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.2.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA2A26",
+										              "value": "<p><span class=\"panel-span-medium\">Access logs needs to be stored and forwarded to SIEM</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA2A26Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA2A26Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureAA3"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "A.3",
+										          "Machine-to-Machine and service accounts password requirements",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.3.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA3A31",
+										              "value": "<p><span class=\"panel-span-medium\">A permanent Optus employee is nominated as responsible for actions conducted with this account.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA3A31Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA3A31Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.3.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA3A32",
+										              "value": "<p><span class=\"panel-span-medium\">The account is removed promptly when it is no longer required</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA3A32Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA3A32Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.3.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA3A33",
+										              "value": "<p><span class=\"panel-span-medium\">The account purpose and responsible employee is documented clearly within the details of the account</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA3A33Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA3A33Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.3.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA3A34",
+										              "value": "<p><span class=\"panel-span-medium\">The account must have a password of at least 14 characters</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA3A34Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA3A34Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.3.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA3A35",
+										              "value": "<p><span class=\"panel-span-medium\">With the exception of the password length and non-expiry, all other settings must be the same as are in effect for users</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA3A35Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA3A35Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.3.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA3A36",
+										              "value": "<p><span class=\"panel-span-medium\">The account must not be used by any user for logging into a system except for the sole purpose of testing the functionality of the account</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA3A36Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA3A36Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.3.7"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA3A37",
+										              "value": "<p><span class=\"panel-span-medium\">Passwords must not be stored in plain text in any part of the system, including cookies, registry, disk swap files, or system files.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA3A37Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA3A37Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.3.8"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA3A38",
+										              "value": "<p><span class=\"panel-span-medium\">System scripts with elevated privileges must be protected from non-administrative user access by the underlying operating system.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA3A38Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA3A38Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.3.9"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA3A39",
+										              "value": "<p><span class=\"panel-span-medium\">Passwords must be not hard-coded into software, batch files or elsewhere.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA3A39Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA3A39Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.3.10"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA3A310",
+										              "value": "<p><span class=\"panel-span-medium\">If the password is required to be re-entered in the future, It must be divided into two equal parts, with each half only known to one party.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA3A310Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA3A310Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.3.11"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA3A311",
+										              "value": "<p><span class=\"panel-span-medium\">If it is not required to be re-entered in the future, no record of the password must be kept.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA3A311Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA3A311Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureAA4"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "A.4",
+										          "End user password requirements",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.4.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA4A41",
+										              "value": "<p><span class=\"panel-span-medium\">The passwords must be encrypted using one-way encryption (SHA-256)</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA4A41Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA4A41Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.4.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA4A42",
+										              "value": "<p><span class=\"panel-span-medium\">The system must enforce password aging and change after 3 months</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA4A42Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA4A42Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.4.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA4A43",
+										              "value": "<p><span class=\"panel-span-medium\">The system must temporary lock out the user account for 30 minutes after a 5 consecutive unsuccessful login attempts within 10 minutes</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA4A43Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA4A43Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.4.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA4A44",
+										              "value": "<p><span class=\"panel-span-medium\">The password must have at least 8 characters with complexity, which requires at least 1 Upper case, 1 lower case, 1 number and 1 special character</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA4A44Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA4A44Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.4.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA4A45",
+										              "value": "<p><span class=\"panel-span-medium\">The system must employ checks to ensure user-created passwords meet Information Security complexity requirements.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA4A45Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA4A45Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.4.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA4A46",
+										              "value": "<p><span class=\"panel-span-medium\">Passwords must be stored in a one-way encrypted form.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA4A46Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA4A46Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.4.7"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA4A47",
+										              "value": "<p><span class=\"panel-span-medium\">The system must provide ability for users to change their passwords, and require users to re-authenticate prior to the password being changed.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA4A47Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA4A47Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.4.8"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA4A48",
+										              "value": "<p><span class=\"panel-span-medium\">The system must not provide any indication that an account already exists.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA4A48Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA4A48Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.4.9"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA4A49",
+										              "value": "<p><span class=\"panel-span-medium\">System generated password must consist of patterns which are randomly selected and complex in terms of their length, character and order.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA4A49Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA4A49Comments",
+										              "rows": "2"
+										            }
+										          ],
+										           [
+										            {
+										              "type": "text",
+										              "value": "A.4.10"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA4A410",
+										              "value": "<p><span class=\"panel-span-medium\">The system must force change of password for:<br />a. Initially assigned passwords, upon first logon<br />b. Default passwords<br />c. Any temporary passwords used after a reset.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA4A410Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA4A410Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureAA5"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "A.5",
+										          "Account Creation and Provisioning",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.5.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA5A51",
+										              "value": "<p><span class=\"panel-span-medium\">For user accounts that are created manually, the application must require a password reset on first logon.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA5A51Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA5A51Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.5.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA5A52",
+										              "value": "<p><span class=\"panel-span-medium\">Where an automated process is not available, an administrator must be assigned with the responsibility of disabling user accounts (within 24 hours) upon termination of employment.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA5A52Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA5A52Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "A.5.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexAA5A53",
+										              "value": "<p><span class=\"panel-span-medium\">>The administrator must perform manual review of accounts every 180 days, and disable any that are no longer required.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexAA5A53Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexAA5A53Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 }
+				     	]
+				    }
+				}
+			]
+	     }
+	 },
+	 {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Additional comments and Related Information"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "APSAnnexAComments"
+				     		}
+			     }
+			    }
+			]
+		}
+	 }
+	]
+}

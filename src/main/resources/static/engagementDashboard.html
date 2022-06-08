@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+    <title>Infosec Portal</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="assets/css/googleapi.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-horizon.css">
+    <link rel="stylesheet" href="assets/css/card.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/image-hover.css">
+    <link rel="stylesheet" href="assets/css/image-preview.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark-1.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button1.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search1.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/starRating.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/toggleButton.css">
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12" style="padding-top: 30px">
+				<!-- menu header -->
+				<nav class="navbar-xs">
+					<div class="container-fluid" style="padding-left:0px;padding-right:0px">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed"
+								data-toggle="collapse" data-target="#navbar">
+								<span class="sr-only">Toggle navigation</span> <span
+									class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand"> <span style="color:#FDCC08 !important">OPTUS</span>
+							</a>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							<ul class="nav navbar-nav navbar-left">
+								<ul class="nav navbar-nav navbar-left">
+									<!-- ko if: currentUserRole() == 'ADMIN' || currentUserRole() == 'SPECIALIST' -->
+									<li class="uxactive"><a class="active" href="engagementDashboard.html">Engagement</a></li>
+									<!-- /ko -->
+									<!-- ko if: currentUserRole() == 'REQUESTER' || currentUserRole() == 'OWNER' -->
+									<li class="uxactive"><a class="active" href="engagementList.html">Engagement</a></li>
+									<!-- /ko -->
+									<!-- ko if: currentUserRole() == 'ADMIN' || currentUserRole() == 'SPECIALIST' -->
+									<li><a href="riskDashboard.html">Risk</a></li>
+									<!-- /ko -->
+								</ul>
+							</ul>
+						</div>
+						
+						<div id="navbar" class="navbar-collapse" style="background-color: white;">
+						    <ul class="nav navbar-nav navbar-nav-2nd-level" id="one">
+						      <li id="navengdash"><a class = "activelink" href="engagementDashboard.html" style="color: black;">Engagement Dashboard</a></li>
+						      <li id="navenglist"><a href="engagementList.html" style="color: black;">Engagement List</a></li>
+						      <li id="navengform"><a href="engagementFormOverview.html" style="color: black;">Engagement Form</a></li>
+						      <li id="navimpengform"><a href="engagementImport.html" style="color: black;">Import Engagement Form</a></li>
+						    </ul>
+						</div> 
+						
+					</div>
+				</nav>
+				<!-- end menu header -->
+				
+				<!-- content -->
+				
+				<div class="row">
+					<div class="col-md-12" style="height:25px;"></div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-2">
+						<select id="filterCategory"
+								name="filterCategory"
+								class="form-control select-width-auto"
+								data-bind="options: engageListFilterCategory, optionsText: 'name', optionsValue: 'id', event:{ change: displayListChart}"
+								data-toggle="tooltip" title="Please select"></select>
+					</div>
+					<div class="col-md-12">
+						<div id="dahdbaordEngagementListChart"> </div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12" style="height:25px;"></div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-2">
+						<select id="displayCategory"
+								name="displayCategory"
+								class="form-control select-width-auto"
+								data-bind="options: engageDashboardDisplayCategory, optionsText: 'name', optionsValue: 'id', event:{ change: displayBChart}"
+								data-toggle="tooltip" title="Please select"></select>
+					</div>
+					<div class="col-md-12">
+						<div id="dahdbaordEngagementBChart"> </div>
+					</div>
+				</div>
+				<br>
+				<br>
+				
+				<!-- End -->
+			</div>
+		</div>
+	</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/spin.js"></script>
+<script src="assets/js/knockout-3.4.2.js"></script>
+<script src="assets/js/knockout-postbox.min.js"></script>
+<script src="assets/js/kendo.all.min.js"></script>
+<script src="assets/js/knockout-kendo.min.js"></script>
+<script src="assets/js/moment.js"></script>
+<script src="assets/js/highcharts.js"></script>
+<script src="assets/js/exporting.js"></script>
+<script src="assets/js/export-data.js"></script>
+<script src="assets/js/jsonQ.js"></script>
+<script type='text/javascript' src='assets/viewjs/Utils.js'></script>
+<script type='text/javascript' src='assets/viewjs/engagementDashboard.js'></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+
+
+</body>
+
+</html>

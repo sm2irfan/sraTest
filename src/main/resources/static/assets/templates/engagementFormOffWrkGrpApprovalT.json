@@ -1,0 +1,317 @@
+{
+  "dynamicEngFormOffWrkGrpApprovalDivData": [
+  	{
+	     "panelheader": {
+	     	"value": "4. Offshore Working Group (OWG) Approval"
+	     }
+     },
+     {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">Information Security will determine whether a review by OWG is required, however, it is the responsibility of the project to engage the OWG, and provide their findings to Information Security for inclusion in the project review.</span> </p> <p> <span class=\"panel-span-medium\">The OWG will need to provide approval and recommendations if any part of this project has an offshore or outsourced component. This includes, but is not limited to:</span> </p> <ul> <li> <p> <span class=\"panel-span-medium\">Offshore development</span> </p> </li> <li> <p> <span class=\"panel-span-medium\">Offshore support</span> </p> </li> <li> <p> <span class=\"panel-span-medium\">Cloud or Offshore data storage</span> </p> </li> <li> <p> <span class=\"panel-span-medium\">Cloud based application (SaaS)</span> </p> </li> </ul> <p> <span class=\"panel-span-medium\">Please see more information about OWG process and the engagement form here:</span> </p> <p> <a href=\"https://appsau.singtelgroup.net/apps/oowg/SitePages/Welcome.aspx\"><span style=\"color: #0000ff;\"><span class=\"panel-span-medium\"><u>https://appsau.singtelgroup.net/apps/oowg/SitePages/Welcome.aspx</u></span></span></a> </p> <p> <span style=\"color: #0000ff;\"><span class=\"panel-span-medium\"><strong>Please consult InfoSec prior to engaging OWG</strong></span></span> </p>"
+	     }
+	 },
+	 {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "",
+				          ""
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "5"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "4.1"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "OWGA41",
+				              "value": "<p><span class=\"panel-span-medium\">Will any offshore vendor be involved as a part of the project?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "OWGA41Radio",
+				              "options": [
+				                "Yes",
+				                "No"
+				              ],
+				              "dependencyname": "AnnexureF_1"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "4.2"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "OWGA42",
+				              "value": "<p><span class=\"panel-span-medium\">Will any part of the project be outsourced to the external vendor?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "OWGA42Radio",
+				              "options": [
+				                "Yes",
+				                "No"
+				              ],
+				              "dependencyname": "AnnexureF_2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "4.3"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "OWGA43",
+				              "value": "<p><span class=\"panel-span-medium\">Will the project involve any Cloud service?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "OWGA43Radio",
+				              "options": [
+				                "Yes",
+				                "No"
+				              ]
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	]
+	     }
+	 },
+	 {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">If the answer to any of the questions above is 'YES', then a copy of the OWG recommendations must entered into the box below for review prior to approval.<\/span> <\/p>"
+	     }
+	 },
+     {
+	     "paneldefault": {
+	     	"dependencynameslist": ["AnnexureF_1","AnnexureF_2"],
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Annexure F - Offshore and Onshore Support"
+				     }
+			    },
+			    {
+				    "panelbody": {
+				    	"type": "panelcontent",
+				     	"value": [
+				     		{
+					     		"panelbody": {
+					     			"type":"paneltext",
+							     	"value": "<p><span class=\"panel-span-medium\"><strong>Please complete the below table for every vendor involved in this project.<strong><\/span><\/p>"
+							     }
+						     },
+						     {
+							     "panelheader": {
+							     	"value": "Vendor details"
+							     }
+							 },
+							 {
+					     		"panelbody": {
+					     			"type":"paneltext",
+							     	"value": "<p><span class=\"panel-span-medium\"><strong>Please provide the vendor details here<strong><\/span><\/p>"
+							     }
+						     },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "#",
+										          "Vendor access to Optus internal systems",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "5"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "F.1"
+										            },
+										            {
+										              "type": "textandcomments",
+										              "id": "OWGAnnexFF1",
+										              "value": "<p><span class=\"panel-span-medium\">What is the vendor involvement in Development phase?</span></p>"
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "OWGAnnexFF1Comments",
+              										  "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "F.2"
+										            },
+										            {
+										              "type": "textandcomments",
+										              "id": "OWGAnnexFF2",
+										              "value": "<p><span class=\"panel-span-medium\">What is the vendor involvement in Implementation phase?</span></p>"
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "OWGAnnexFF2Comments",
+              										  "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "F.3"
+										            },
+										            {
+										              "type": "textandcomments",
+										              "id": "OWGAnnexFF3",
+										              "value": "<p><span class=\"panel-span-medium\">What is the vendor involvement in On-going support phase?</span></p>"
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "OWGAnnexFF3Comments",
+              										  "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "F.4"
+										            },
+										            {
+										              "type": "textandcomments",
+										              "id": "OWGAnnexFF4",
+										              "value": "<p><span class=\"panel-span-medium\">Will the resources be onsite in OCS?</span></p>"
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "OWGAnnexFF4Comments",
+              										  "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "F.5"
+										            },
+										            {
+										              "type": "textandcomments",
+										              "id": "OWGAnnexFF5",
+										              "value": "<p><span class=\"panel-span-medium\">Will the resources connect from on-shore (B2B)</span></p>"
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "OWGAnnexFF5Comments",
+              										  "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "F.6"
+										            },
+										            {
+										              "type": "textandcomments",
+										              "id": "OWGAnnexFF6",
+										              "value": "<p><span class=\"panel-span-medium\">Will the resources connect from Off shore?</span></p>"
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "OWGAnnexFF6Comments",
+              										  "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "F.7"
+										            },
+										            {
+										              "type": "textandcomments",
+										              "id": "OWGAnnexFF7",
+										              "value": "<p><span class=\"panel-span-medium\">If the resources are offshore, will they use existing setup or the new connection will be required?</span></p>"
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "OWGAnnexFF7Comments",
+              										  "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "F.8"
+										            },
+										            {
+										              "type": "textandcomments",
+										              "id": "OWGAnnexFF8",
+										              "value": "<p><span class=\"panel-span-medium\">Will the vendor have access to production data?</span></p>"
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "OWGAnnexFF8Comments",
+              										  "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 }
+				     	]
+				    }
+				}
+			]
+	     }
+	 },
+	 {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Offshore Working Group Recommendations"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "OWGAComments"
+				     		}
+			     }
+			    }
+			]
+		}
+	 }
+	]
+}

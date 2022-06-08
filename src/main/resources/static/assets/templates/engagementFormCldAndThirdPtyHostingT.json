@@ -1,0 +1,3542 @@
+{
+  "dynamicEngFormCldAndThirdPtyHostingDivData": [
+  	{
+	     "panelheader": {
+	     	"value": "6. Cloud and Third Party Hosting Assessment"
+	     }
+     },
+	 {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Cloud and Third Party Hosting Assessment",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "6.1"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CATPH61",
+				              "value": "<p><span class=\"panel-span-medium\">Does the project introduce any new SaaS application (Software as a Service)?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CATPH61Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureE_E1_E7"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CATPH61Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "6.2"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CATPH62",
+				              "value": "<p><span class=\"panel-span-medium\">Does the project introduce any new application / platform hosted outside Optus managed datacentre?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CATPH62Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureC"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CATPH62Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "6.3"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CATPH63",
+				              "value": "<p><span class=\"panel-span-medium\">Does the project introduce any new application / platform managed and maintained by external vendor?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CATPH63Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureD"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CATPH63Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "6.4"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CATPH64",
+				              "value": "<p><span class=\"panel-span-medium\">Does the project introduce any new IaaS (Infrastructure as a Service) environment in Amazon AWS ?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CATPH64Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureE_E8"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CATPH64Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "6.5"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CATPH65",
+				              "value": "<p><span class=\"panel-span-medium\">Is any data stored in the cloud ever stored on servers in the United States of America?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CATPH65Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CATPH65Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "6.6"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CATPH66",
+				              "value": "<p><span class=\"panel-span-medium\">Does the project introduce or change any file transfer across the Internet to external vendors?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CATPH66Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureJ"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CATPH66Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	]
+	     }
+	 },
+	 {
+	     "breakline": "true"
+	 },
+	 {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">MC approval might be required for US based hosting. More information about the process can be found here: https:\/\/espresso.sg.singtelgroup.net\/depts\/groupriskmanagement\/proccontract\/Pages\/Cloud-Solution-Hosted-in-US-Data-Centres.aspx <\/span> <\/p>"
+	     }
+	 },
+     {
+	     "paneldefault": {
+	     	"dependencynameslist": ["AnnexureE_E1_E7", "AnnexureE_E8"],
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Annexure E - Cloud Security"
+				     }
+			    },
+			    {
+				     "panelbody": {
+				     	"type":"paneltext",
+				     	"value": "<p> <span class=\"panel-span-medium\">For full details of Cloud requirements, refer to the <a href=\"https:\/\/espressoau.singtelgroup.net\/depts\/infosec\/InfoSec%20Policies%20Standards%20%20Guidelines\/PDFs\/Optus_Cloud_Security_Guidelines_1.04.pdf\">Cloud Security Guidelines<\/a> document. <\/span> <\/p>"
+				     }
+				},
+			    {
+				    "panelbody": {
+				    	"type": "panelcontent",
+				     	"value": [
+				     		{
+					     		"panelbody": {
+					     			"type":"paneltext",
+							     	"value": "<p><span class=\"panel-span-medium\"><strong>For full details of identification and authentication requirements, refer to the Optus Identification and Authentication standards document.<strong><\/span><\/p>"
+							     }
+						     },
+						     {
+							     "paneldefault": {
+							     	"value": [
+							     		{ 
+									     	"panelheader": {
+										     	"value": "Cloud application description"
+										     }
+									    },
+									    {
+									    	"panelbody": {
+										    	"type":"paneltextarea",
+										     	"value": {
+										     		    "type": "textarea",
+												        "width": 12,
+												        "length": 500,
+												        "rows": "3",
+												        "paramname": "CATPHAnnexECldAppDesc"
+										     		}
+									     }
+									    }
+									]
+								}
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureE_E1_E7"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "E.1",
+										          "Cloud Type",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.1.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE1E11",
+										              "value": "<p><span class=\"panel-span-medium\">Software/Platform/Infrastructure as a service</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE1E11Radio",
+										              "options": [
+										                "SaaS",
+										                "PaaS",
+										                "IaaS"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE1E11Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureE_E1_E7"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "E.2",
+										          "Accreditation and Testing",
+										          "",
+										          "List accreditations"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.2.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE2E21",
+										              "value": "<p><span class=\"panel-span-medium\">The Cloud vendor must have security accreditations such as ISO27001, PCI DSS, or Level 1 CSA.<\/span><\/p> <ol> <li> <p><span class=\"panel-span-medium\">Split knowledge control: passwords of privileged user must be split among two people<\/span><\/p> <\/li> <li> <p><span class=\"panel-span-medium\">Dual Control: operation is split among two people<\/span><\/p> <\/li> <\/ol>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE2E21Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE2E21Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureE_E1_E7"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "E.3",
+										          "Data Encryption",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.3.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE3E31",
+										              "value": "<p><span class=\"panel-span-medium\">The vendor must provide data encryption in Transit (TLSv1.2) over pubic network (Internet) for Sensitive data</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE3E31Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE3E31Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.3.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE3E32",
+										              "value": "<p><span class=\"panel-span-medium\">The vendor must provide data encryption at Rest (AES 256bit encryption) for Sensitive data</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE3E32Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE3E32Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureE_E1_E7"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "E.4",
+										          "Data Destruction",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.4.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE4E41",
+										              "value": "<p><span class=\"panel-span-medium\">The cloud vendor must have policies and procedures to securely wipe retired media before disposal or reuse.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE4E41Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE4E41Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureE_E1_E7"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "E.5",
+										          "Access To Logs",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.5.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE5E51",
+										              "value": "<p><span class=\"panel-span-medium\">The cloud provider must be able to provide access to 6 months of access logs on demand.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE5E51Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE5E51Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureE_E1_E7"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "E.6",
+										          "User Access",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.6.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE6E61",
+										              "value": "<p><span class=\"panel-span-medium\">Access to the Internet facing portal must be restricted to known Optus IP addresses or employ two factor authentication or integrated with Optus ADFS (SAML authentication)</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE6E61Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE6E61Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureE_E1_E7"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "E.7",
+										          "Penetration Test",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.7.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE7E71",
+										              "value": "<p><span class=\"panel-span-medium\">The penetration test needs to be performed by the reputable third party provider on all Internet facing interfaces (APIs, customer interfaces, CMS etc). The penetration test needs to be performed annually</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE7E71Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE7E71Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureE_E8"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "E.8",
+										          "",
+										          "",
+										          "Comments"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E81",
+										              "value": "<p><span class=\"panel-span-medium\">Access to the management console should be limited as much as possible with automation and scripting (via the AWS CLI) as the preferred deployment and management method in place of manual hands on management. (No access the management console over the Internet).</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E81Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E81Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E82",
+										              "value": "<p><span class=\"panel-span-medium\">Access to the AWS management console must employ Two-factor authentication.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E82Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E82Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E83",
+										              "value": "<p><span class=\"panel-span-medium\">Strong passwords must be allocated to all AWS Console accounts; these passwords must comply with Optus Information Security Standards.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E83Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E83Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E84",
+										              "value": "<p><span class=\"panel-span-medium\">Master account access to AWS should be limited for initial VPC creation and creation of IAM accounts. The master account must not be used for day to day support. This account must be secured in a safe facility with access granted only in event of emergency.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E84Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E84Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E85",
+										              "value": "<p><span class=\"panel-span-medium\">Role based access control must be enforced on IAM accounts to ensure segregation of duties. For example, create a group for running network configuration scripts and a separate group for accessing hosts.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E85Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E85Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": "Virtual Private Cloud (VPC)"
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E86",
+										              "value": "<p><span class=\"panel-span-medium\">Privileges must be assigned to Groups and NOT individual accounts.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E86Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E86Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.7"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E87",
+										              "value": "<p><span class=\"panel-span-medium\">VPCs must be designated either Production or non-production.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E87Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E87Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.8"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E88",
+										              "value": "<p><span class=\"panel-span-medium\">Production VPCs must be separate to non-production VPCs.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E88Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E88Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.9"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E89",
+										              "value": "<p><span class=\"panel-span-medium\">Access from the Internet to the VPC should be made unavailable by default; access to hosts in the VPC (from Internet) must be locked to specific (Optus or partner) IP addresses.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E89Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E89Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.10"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E810",
+										              "value": "<p><span class=\"panel-span-medium\">The production VPC must be dedicated and not provide shared services. (I.e. dedicated to the specific project).</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E810Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E810Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.11"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E811",
+										              "value": "<p><span class=\"panel-span-medium\">Where possible, configuration of the VPC virtual infrastructure should be stored programmatically, so that version control and salvage of the infrastructure upon accidental deletion can be performed seamlessly.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E811Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E811Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.12"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E812",
+										              "value": "<p><span class=\"panel-span-medium\">A management tier will be required in each VPC for management of components such as DNS, any monitoring tools, log collators, and for remote access and management of hosts in the VPC.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E812Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E812Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.13"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E813",
+										              "value": "<p><span class=\"panel-span-medium\">If multiple VPCs are required:<br />- A Management VPC is recommended to centralise management components such as monitoring, DNS, and log data collection.<br />- Inter VPC communication should utilise AWS inter-VPC peering, and not the Optus internal network. <br />- Development VPCs should not be accessible from the Internet <br />- Test and QA VPCs will be a mirror of Production (with masked data) with No / limited Internet access, turned on as required to facilitate testing</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E813Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E813Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": "Storage"
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.14"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E814",
+										              "value": "<p><span class=\"panel-span-medium\">If populating S3 storage with customer or other Sensitive information, server side encryption (AES 256) is required. This requires the client (customer \"OPTUS\") to hold and secure the symmetric key. See the following Amazon link for <a href=\"http:\/\/aws.amazon.com\/blogs\/aws\/s3-encryption-with-your-keys\/\">how to deploy server side encryption with <\/a>S3.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E814Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E814Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.15"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E815",
+										              "value": "<p><span class=\"panel-span-medium\">The symmetric key must be stored securely locally (not on Amazon), not disclosed, and where possible changed routinely.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E815Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E815Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.16"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E816",
+										              "value": "<p><span class=\"panel-span-medium\">S3 storage configuration must undergo security validation to ensure proper configuration before importing Sensitive data.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E816Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E816Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": "Network"
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.17"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E817",
+										              "value": "<p><span class=\"panel-span-medium\">All internal hosts must use private IP addressing.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E817Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E817Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.18"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E818",
+										              "value": "<p><span class=\"panel-span-medium\">Interconnection between the VPC and Optus internal network must be over VPN or direct connect (if available).</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E818Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E818Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.19"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E819",
+										              "value": "<p><span class=\"panel-span-medium\">The network within an Internet facing VPC must follow a three tier architecture layout, with a web/proxy, application and the database tier. See below.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E819Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E819Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.20"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E820",
+										              "value": "<p><span class=\"panel-span-medium\">The VPCs internal network must maintain logical separation by deploying access control lists (ACL) and Security Groups to ensure subnets associated with one tier can only route to an adjacent tier. (For example, a host in the proxy tier should have no direct route to the database tier).</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E820Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E820Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.21"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E821",
+										              "value": "<p><span class=\"panel-span-medium\">Security Groups should be configured to allow only necessary communications between hosts. Configure Security Groups so that communications between hosts on any given tier are restricted at both the IP and UDP/TCP Port level. A host based firewalling may also be used for this purpose in place of Security Groups.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E821Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E821Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.22"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E822",
+										              "value": "<p><span class=\"panel-span-medium\">Within an Internet facing VPC, only servers in tiers 2 and 3 may communicate directly with the internal corporate network.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E822Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E822Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.23"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E823",
+										              "value": "<p><span class=\"panel-span-medium\">Due to the dynamic nature of AWS IP addressing, hosts on a tier 2 or tier 3 network that require communication with the internal network must be deployed in their own dedicated subnet, and the corporate firewall configured to allow internal communication to that specified subnet.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E823Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E823Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.24"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E824",
+										              "value": "<p><span class=\"panel-span-medium\">A Web application Firewall (WAF) is required where an Internet facing VPC hosts Sensitive information or (if internally facing) accesses Sensitive information in the corporate network.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E824Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E824Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.25"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E825",
+										              "value": "<p><span class=\"panel-span-medium\">Test VPCs (mirroring Internet and internally facing production VPCs) must restrict Internet connectivity to Optus IP address ranges.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E825Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E825Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.26"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E826",
+										              "value": "<p><span class=\"panel-span-medium\">Development VPCs may connect to Optus/Singtel development networks by way of B2B VPN (IPsec encrypted tunnel over the Internet)</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E826Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E826Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.27"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E827",
+										              "value": "<p><span class=\"panel-span-medium\">Security Groups should manage only inbound traffic.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E827Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E827Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.28"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E828",
+										              "value": "<p><span class=\"panel-span-medium\">Security Groups should be standalone and nesting (a Security Group contained within another security group) should be avoided.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E828Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E828Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": "Hosts"
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.29"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E829",
+										              "value": "<p><span class=\"panel-span-medium\">All hosts deployed in the VPC must be running the latest version of operating systems, security hardened in accordance with Optus Information Security Standards, and have the latest updates/patches installed.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E829Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E829Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.30"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E830",
+										              "value": "<p><span class=\"panel-span-medium\">All virtual hosts deployed in public cloud infrastructure must be patched, and updates applied in accordance with the Optus Information Security Standard.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E830Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E830Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.31"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E831",
+										              "value": "<p><span class=\"panel-span-medium\">Windows hosts deployed in public cloud infrastructure must implement antivirus software.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E831Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E831Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.32"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E832",
+										              "value": "<p><span class=\"panel-span-medium\">Audit logging must be enabled on all hosts and capture the following:<br />- User logons and logoffs, including failed attempts, capturing the IP address, name, and timestamp<br />- All privileged operations including user and group additions/deletions and system changes<br />- Security related alerts and failures, including Unauthorised Access attempts</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E832Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E832Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": "Data"
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.33"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E833",
+										              "value": "<p><span class=\"panel-span-medium\">The VPC instance must be region locked to Australia.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E833Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E833Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.34"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E834",
+										              "value": "<p><span class=\"panel-span-medium\">Any data at rest (residing in servers or S3) must be encrypted with AES 256 (utilising server side encryption).</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E834Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E834Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.35"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E835",
+										              "value": "<p><span class=\"panel-span-medium\">Any data transfers must be over secure protocols such as IPsec, SSL, SSH and SFTP or the data must be encrypted prior to transmission.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E835Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E835Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": "Review and Testing"
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.36"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E836",
+										              "value": "<p><span class=\"panel-span-medium\">The AWS infrastructure design must be reviewed and approved by Information Security prior to deployment.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E836Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E836Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "E.8.37"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexEE8E837",
+										              "value": "<p><span class=\"panel-span-medium\">The completed AWS infrastructure requires security penetration testing.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexEE8E837Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexEE8E837Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "paneldefault": {
+							     	"value": [
+							     		{ 
+									     	"panelheader": {
+										     	"value": "Comments"
+										     }
+									    },
+									    {
+									    	"panelbody": {
+										    	"type":"paneltextarea",
+										     	"value": {
+										     		    "type": "textarea",
+												        "width": 12,
+												        "length": 500,
+												        "rows": "3",
+												        "paramname": "CATPHAnnexEComments"
+										     		}
+									     }
+									    }
+									]
+								}
+							 }
+				     	]
+				    }
+				}
+			]
+	     }
+	 },
+	 {
+	     "paneldefault": {
+	     	"dependencynameslist": ["AnnexureC"],
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Annexure C - Physical Security"
+				     }
+			    },
+			    {
+				    "panelbody": {
+				    	"type": "panelcontent",
+				     	"value": [
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "C.1",
+										          "Physical Access Requirements",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C11",
+										              "value": "<p><span class=\"panel-span-medium\">Restricted areas, as well as areas containing Sensitive corporate information, shall be protected by appropriate physical entry controls to ensure that only authorised personnel are allowed access.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C11Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C11Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C12",
+										              "value": "<p><span class=\"panel-span-medium\">All personnel and visitors shall wear their identification badge at all times within the premise. Authorised personnel accessing to restricted areas shall not permit unauthorised persons to these areas at the same time as they go through the entrances.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C12Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C12Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C13",
+										              "value": "<p><span class=\"panel-span-medium\">Secured areas with Sensitive corporate information or Systems shall be equipped with</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C13Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C13Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C14",
+										              "value": "<p><span class=\"panel-span-medium\">surveillance facilities for 24x7 monitoring;</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C14Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C14Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C15",
+										              "value": "<p><span class=\"panel-span-medium\">All Critical computing and related equipment shall be housed in lockable racks or in separate rooms secured with locks;</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C15Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C15Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C16",
+										              "value": "<p><span class=\"panel-span-medium\">Fire detection, alarms and suppression systems as well as systems constructed to withstand</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C16Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C16Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.7"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C17",
+										              "value": "<p><span class=\"panel-span-medium\">natural disasters;</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C17Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C17Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.8"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C18",
+										              "value": "<p><span class=\"panel-span-medium\">Environment conditioning systems to maintain humidity and temperature;</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C18Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C18Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.9"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C19",
+										              "value": "<p><span class=\"panel-span-medium\">Power supply protection such as failover generators or uninterruptible power supply systems in place;</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C19Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C19Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.10"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C110",
+										              "value": "<p><span class=\"panel-span-medium\">Facilities for telecommunication services, shall be physically separated and sited away from data</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C110Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C110Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.11"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C111",
+										              "value": "<p><span class=\"panel-span-medium\">processing facilities.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C111Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C111Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.1.12"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC1C112",
+										              "value": "<p><span class=\"panel-span-medium\">Public access, delivery and loading areas Physical access points such as delivery and loading areas and other points where unauthorised persons may enter Group premises shall be controlled and isolated from Systems to avoid Unauthorised Access or interference.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC1C112Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC1C112Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "C.2",
+										          "Equipment Security",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.2.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC2C21",
+										              "value": "<p><span class=\"panel-span-medium\">Key Systems shall have appropriate controls in place to manage disruptions from power failures and other failures in supporting utilities. All supporting utilities shall be tested on a regular basis to ensure that the Systems have adequate capacity and in accordance with the manufacturer's recommendations;</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC2C21Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC2C21Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.2.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC2C22",
+										              "value": "<p><span class=\"panel-span-medium\">Power and telecommunications cabling services shall have appropriate controls implemented to minimise the risk of interception, failures or damage.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC2C22Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC2C22Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.2.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC2C23",
+										              "value": "<p><span class=\"panel-span-medium\">Key Systems shall be correctly maintained in accordance with manufacturer's instructions and/or documented procedures performed only by qualified and authorised maintenance personnel to ensure its continued availability, integrity and confidentiality;</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC2C23Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC2C23Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.2.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC2C24",
+										              "value": "<p><span class=\"panel-span-medium\">All maintenance reports shall be kept for maintenance performed on the Systems;</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC2C24Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC2C24Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "C.2.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexCC2C25",
+										              "value": "<p><span class=\"panel-span-medium\">Appropriate standards shall be in place for Systems which are sent off-site for maintenance purposes to ensure the confidentiality and integrity of information. Appropriate security controls shall be applied to off-site Systems, taking into account the additional risks of working outside the Group premises.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexCC2C25Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexCC2C25Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 }
+				     	]
+				    }
+				}
+			]
+	     }
+	 },
+	 {
+	     "paneldefault": {
+	     	"dependencynameslist": ["AnnexureD"],
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Annexure D - Operational Security"
+				     }
+			    },
+			    {
+				     "panelbody": {
+				     	"type":"paneltext",
+				     	"value": "<p> <span class=\"panel-span-medium\"><p><span  class=\"panel-span-medium\">See the following documents for more information: <\/span><\/p> <ul> <li> <p><span  class=\"panel-span-medium\">Auditing and Logging Security Policy and Controls<\/span><\/p> <\/li> <li> <p><span  class=\"panel-span-medium\">Incident Management Process<\/span><\/p> <\/li> <li> <p><span  class=\"panel-span-medium\">Incident Management Policy and Controls<\/span><\/p> <\/li> <li> <p><span  class=\"panel-span-medium\">Patch Management Policy and Controls<\/span><\/p> <\/li> <li> <p><span  class=\"panel-span-medium\">Vulnerability Management Policy and Controls<\/span><\/p> <\/li> <li> <p><span  class=\"panel-span-medium\">Network Security Policy and Controls<\/span><\/p> <\/li> <\/ul><\/span> <\/p>"
+				     }
+				},
+			    {
+				    "panelbody": {
+				    	"type": "panelcontent",
+				     	"value": [
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "D.1",
+										          "Operations",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.1.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD1D11",
+										              "value": "<p><span class=\"panel-span-medium\">IT operating responsibilities and procedures must be documented.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD1D11Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD1D11Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.1.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD1D12",
+										              "value": "<p><span class=\"panel-span-medium\">System changes must be controlled with formalised change management procedures.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD1D12Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD1D12Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.1.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD1D13",
+										              "value": "<p><span class=\"panel-span-medium\">Development, test and operational environments must be separated.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD1D13Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD1D13Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.1.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD1D14",
+										              "value": "<p><span class=\"panel-span-medium\">Systems must be protected against malware with security software.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD1D14Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD1D14Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.1.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD1D15",
+										              "value": "<p><span class=\"panel-span-medium\">Data must be regularly backed up and retained in accordance with a backup policy.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD1D15Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD1D15Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.1.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD1D16",
+										              "value": "<p><span class=\"panel-span-medium\">Operating systems must be hardened according to Optus approved standards.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD1D16Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD1D16Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.1.7"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD1D17",
+										              "value": "<p><span class=\"panel-span-medium\">Systems must be patched for Critical vulnerabilities in applications or operating systems within four weeks of release.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD1D17Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD1D17Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "D.2",
+										          "Incident Management Requirements",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.2.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD2D21",
+										              "value": "<p><span class=\"panel-span-medium\">Information Security must be notified immediately of security events, incidents and weaknesses affecting the system or data, along with course of action being taken to minimise impact or risk.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD2D21Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD2D21Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.2.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD2D22",
+										              "value": "<p><span class=\"panel-span-medium\">Logs must be maintained and made available on request to assist in collection of forensic evidence.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD2D22Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD2D22Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.2.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD2D23",
+										              "value": "<p><span class=\"panel-span-medium\">Procedures must be documented outlining how to manage (report, assess, respond to and learn from) information security events.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD2D23Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD2D23Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.2.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD2D24",
+										              "value": "<p><span class=\"panel-span-medium\">The incident response plan must flow logically from a broader information security plan.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD2D24Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD2D24Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.2.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD2D25",
+										              "value": "<p><span class=\"panel-span-medium\">The incident response plan must be tested annually.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD2D25Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD2D25Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.2.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD2D26",
+										              "value": "<p><span class=\"panel-span-medium\">The plan must include a strategy to identify and address any weaknesses in data handling/data security that contributed to the breach.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD2D26Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD2D26Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "D.3",
+										          "Network Management Requirements",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.3.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD3D31",
+										              "value": "<p><span class=\"panel-span-medium\">The environment must employ network segregation via firewalls to separate systems into trusted, semi-trusted zones and non-trusted zones where applicable.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD3D31Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD3D31Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.3.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD3D32",
+										              "value": "<p><span class=\"panel-span-medium\">Host based firewalls should be activated on Critical servers.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD3D32Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD3D32Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.3.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD3D33",
+										              "value": "<p><span class=\"panel-span-medium\">Any transfer of Sensitive information must be over secure protocols.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD3D33Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD3D33Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "D.4",
+										          "Audit Logging Requirements",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.4.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD4D41",
+										              "value": "<p><span class=\"panel-span-medium\">The application or underlying system must log user and administrator activities, exceptions, faults and information security events, by keeping a record of the following events:<\/span><\/p> <ul> <li> <p><span style=\"font-size: small;\">Successful and Failed Logon attempts.<\/span><\/p> <\/li> <li> <p><span style=\"font-size: small;\">Privileged access and escalation of privileges. <\/span><\/p> <\/li> <li> <p><span style=\"font-size: small;\">Successful\/Unsuccessful attempts to access protected resources.<\/span><\/p> <\/li> <li> <p><span style=\"font-size: small;\">Changes to access rights of groups, and users. <\/span><\/p> <\/li> <li> <p><span style=\"font-size: small;\">Changes to permissions of objects, including files and directories.<\/span><\/p> <\/li> <li> <p><span style=\"font-size: small;\">System configuration and security settings.<\/span><\/p> <\/li> <li> <p><span style=\"font-size: small;\">User access and modification to file system objects, including programs.<\/span><\/p> <\/li> <\/ul></span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD4D41Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD4D41Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.4.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD4D42",
+										              "value": "<p><span class=\"panel-span-medium\">The application and system logs must be protected from tampering or alteration.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD4D42Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD4D42Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.4.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD4D43",
+										              "value": "<p><span class=\"panel-span-medium\">Servers and other infrastructure system clocks must be kept in synchronization with a valid NTP time server.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD4D43Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD4D43Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.4.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD4D44",
+										              "value": "<p><span class=\"panel-span-medium\">Sensitive data such as passwords must NOT be captured in logs.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD4D44Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD4D44Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.4.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD4D45",
+										              "value": "<p><span class=\"panel-span-medium\">The application must alert the System/Application Administrator if the functioning of system audit log fails and is no longer recording events.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD4D45Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD4D45Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.4.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD4D46",
+										              "value": "<p><span class=\"panel-span-medium\">The system Administrator must be able to view a list of currently logged on users.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD4D46Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD4D46Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.4.7"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD4D47",
+										              "value": "<p><span class=\"panel-span-medium\">Logs must be kept for a minimum period of 3 months online, and 2 years in offline archives.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD4D47Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD4D47Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.4.8"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD4D48",
+										              "value": "<p><span class=\"panel-span-medium\">All logging must be implemented on a protected system, with access restricted to authorized persons.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD4D48Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD4D48Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.4.9"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD4D49",
+										              "value": "<p><span class=\"panel-span-medium\">The audit logs must be sent to centralised monitoring system for correlation and assessment.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD4D49Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD4D49Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.4.10"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD4D410",
+										              "value": "<p><span class=\"panel-span-medium\">Security logs must be reviewed on a daily basis.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD4D410Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD4D410Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "D.5",
+										          "Privileged access management (Operating system and Database)",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.5.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD5D51",
+										              "value": "<p><span class=\"panel-span-medium\">No single user should know the full password\/keys. This can be achieved by:<\/span><\/p> <ol> <li> <p><span style=\"font-size: small;\">Split knowledge control: passwords of privileged user must be split among two people<\/span><\/p> <\/li> <li> <p><span style=\"font-size: small;\">Dual Control: operation is split among two people<\/span><\/p> <\/li> <\/ol>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD5D51Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD5D51Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.5.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD5D52",
+										              "value": "<p><span class=\"panel-span-medium\">Pass phrase/password/key must be changed every 90 days.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD5D52Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD5D52Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.5.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD5D53",
+										              "value": "<p><span class=\"panel-span-medium\">Privileged user access must be granted for limited time. (not permanently)</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD5D53Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD5D53Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.5.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD5D54",
+										              "value": "<p><span class=\"panel-span-medium\">Every change must be logged in ticketing system with detailed implementation plan.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD5D54Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD5D54Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.5.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD5D55",
+										              "value": "<p><span class=\"panel-span-medium\">Authorized personnel's must use the privileged accounts on demand along with approvals.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD5D55Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD5D55Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "D.5.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexDD5D56",
+										              "value": "<p><span class=\"panel-span-medium\">Access logs needs to be stored and forwarded to SIEM.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexDD5D56Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexDD5D56Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 }
+				     	]
+				    }
+				}
+			]
+	     }
+	 },
+	 {
+	     "paneldefault": {
+	     	"dependencynameslist": ["AnnexureJ"],
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Annexure J - File Transfers"
+				     }
+			    },
+			    {
+				    "panelbody": {
+				    	"type": "panelcontent",
+				     	"value": [
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "J.1",
+										          "Environment",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "J.1.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexJJ1J11",
+										              "value": "<p><span class=\"panel-span-medium\">Is any testing or development being carried out with the system connected to the Internet?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexJJ1J11Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexJJ1J11Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "J.2",
+										          "Encryption",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "J.2.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexJJ2J21",
+										              "value": "<p><span class=\"panel-span-medium\">Are the files being transferred between dedicated 'transfer' servers?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexJJ2J21Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexJJ2J21Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "J.2.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexJJ2J22",
+										              "value": "<p><span class=\"panel-span-medium\">Are the files being transferred encrypted using an approved algorithm?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexJJ2J22Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexJJ2J22Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "J.3",
+										          "Transfer",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "J.3.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexJJ3J31",
+										              "value": "<p><span class=\"panel-span-medium\">Are the files being transferred over SFTP?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexJJ3J31Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexJJ3J31Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "J.3.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexJJ3J32",
+										              "value": "<p><span class=\"panel-span-medium\">Are all file transfers logged at both ends?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexJJ3J32Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexJJ3J32Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "J.3.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexJJ3J33",
+										              "value": "<p><span class=\"panel-span-medium\">Have all SFTP accounts been configured as 'SFTP only'?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexJJ3J33Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexJJ3J33Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "J.3.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexJJ3J334",
+										              "value": "<p><span class=\"panel-span-medium\">Are all files promptly removed from the transferring systems?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexJJ3J34Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexJJ3J34Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "J.4",
+										          "Architecture",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "J.4.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CATPHAnnexJJ4J41",
+										              "value": "<p><span class=\"panel-span-medium\">Are the file transfer servers in a DMZ, separated from the core systems?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CATPHAnnexJJ4J41Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CATPHAnnexJJ4J41Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 }
+				     	]
+				    }
+				}
+			]
+	     }
+	 },
+	 {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Additional comments and Related Information"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "APSAnnexAComments"
+				     		}
+			     }
+			    }
+			]
+		}
+	 }
+	]
+}

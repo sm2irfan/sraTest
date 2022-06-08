@@ -1,0 +1,343 @@
+{
+  "dynamicEngFormNtwrkMngdSystemsDivData": [
+    {
+	     "panelheader": {
+	     	"value": "9. Networks Managed Systems (Not IT)"
+	     }
+    },
+    {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">Please answer the below questions to ensure the necessary security controls are implemented for the Networks managed infrastructure.<\/span> <\/p>"	
+	     }
+	},
+	{
+     	"breakline": true
+    },
+	{
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Network access control",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "9.1"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "NMS91",
+				              "value": "<p><span class=\"panel-span-medium\">Appropriate security controls shall be in place to segregate the Group</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "NMS91Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "NMS91Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "9.2"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "NMS92",
+				              "value": "<p><span class=\"panel-span-medium\">Network access from external parties to any network of the Group shall be restricted to only allow access to perform the agreed services, and will require strong authentication or hard coded IDs to prevent source spoofing</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "NMS92Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "NMS92Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "9.3"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "NMS93",
+				              "value": "<p><span class=\"panel-span-medium\">All internal network devices including, but not limited to, routers, firewalls, and access control servers, shall have unique passwords or other access control mechanisms that are aligned with the Group standards</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "NMS93Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "NMS93Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "9.4"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "NMS94",
+				              "value": "<p><span class=\"panel-span-medium\">Any device that is to be connected to the network shall be authorised by the IT management. Such connection shall be assessed for its network impact and compatibility</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "NMS94Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "NMS94Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "9.5"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "NMS95",
+				              "value": "<p><span class=\"panel-span-medium\">External parties accessing network devices remotely shall support the use of a strong multi-factor authentication mechanism</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "NMS95Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "NMS95Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "9.6"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "NMS96",
+				              "value": "<p><span class=\"panel-span-medium\">All privileged access to network devices shall require strong multi-factor authentication</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "NMS96Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "NMS96Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "9.7"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "NMS97",
+				              "value": "<p><span class=\"panel-span-medium\">All remote access shall be strictly controlled and limited to only that required for legitimate business purpose. Remote access shall apply Two-factor authentication, with all attempts properly logged</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "NMS97Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "NMS97Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "9.8"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "NMS98",
+				              "value": "<p><span class=\"panel-span-medium\">External parties' access shall be restricted to only those systems, devices and protocols that are required in order for them to perform their contracted support functions. Where remote access is granted to external parties for support purpose, the access shall be enabled only for a specified duration</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "NMS98Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "NMS98Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "9.9"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "NMS99",
+				              "value": "<p><span class=\"panel-span-medium\">Accounts (such as systems administrators, root, database administrations, etc.) that have elevated access within the Networks Group environment must be created only after requests for creation of such accounts have been authorised at minimum by Director level personnel from the responsible Networks Business Unit</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "NMS99Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "NMS99Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "9.10"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "NMS910",
+				              "value": "<p><span class=\"panel-span-medium\">At a minimum, miltifactor authentication must be used for all accounts used to access to defined Critical network infrastructure from remote or external locations (as identified in the Business Continuity Management Business Impact Analysis report)</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "NMS910Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "NMS910Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "9.11"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "NMS911",
+				              "value": "<p><span class=\"panel-span-medium\">All Privileged users must be identifiable to the responsible Business Director or designated manager.</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "NMS911Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "NMS911Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Additional Information"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "endUserNMSComments"
+				     	}
+			        }
+			    }
+			]
+		}
+	 }
+  ]			
+}

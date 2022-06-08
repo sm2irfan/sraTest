@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infosec Portal</title>
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="assets/bootstrap/css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="assets/css/googleapi.css">
+<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+<link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap-horizon.css">
+<link rel="stylesheet" href="assets/css/card.css">
+<link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+<link rel="stylesheet" href="assets/css/image-hover.css">
+<link rel="stylesheet" href="assets/css/image-preview.css">
+<link rel="stylesheet" href="assets/css/Login-Form-Dark-1.css">
+<link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+<link rel="stylesheet" href="assets/css/Navigation-with-Button1.css">
+<link rel="stylesheet" href="assets/css/Navigation-with-Search1.css">
+<link rel="stylesheet"
+	href="assets/css/Registration-Form-with-Photo.css">
+<link rel="stylesheet" href="assets/css/starRating.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/toggleButton.css">
+<link rel="stylesheet" href="assets/jsonforms/css/brutusin-json-forms.min.css">
+<script src="assets/jsonforms/js/brutusin-json-forms.js"></script>
+<script src="assets/jsonforms/js/brutusin-json-forms-bootstrap.min.js"></script>
+
+
+<link type="text/css" href="assets/alpaca/alpaca.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1" style="padding-top: 30px">
+				<!-- menu header -->
+				<nav class="navbar-xs">
+					<div class="container-fluid"
+						style="padding-left: 0px; padding-right: 0px">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed"
+								data-toggle="collapse" data-target="#navbar">
+								<span class="sr-only">Toggle navigation</span> <span
+									class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand"> <span
+								style="color: #FDCC08 !important">OPTUS</span>
+							</a>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							<ul class="nav navbar-nav navbar-left">
+								<li class="uxactive"><a class="active"
+									href="engagementDashboard.html">Engagement</a></li>
+								<li><a href="riskDashboard.html">Risk</a></li>
+							</ul>
+						</div>
+
+						<div id="navbar" class="navbar-collapse"
+							style="background-color: white;">
+							<ul class="nav navbar-nav navbar-nav-2nd-level" id="one">
+								<li id="navengdash"><a class="activelink"
+									href="engagementDashboard.html" style="color: black;">Engagement
+										Dashboard</a></li>
+								<li id="navenglist"><a href="engagementList.html"
+									style="color: black;">Engagement List</a></li>
+								<li id="navengform"><a href="engagementFormOverview.html"
+									style="color: black;">Engagement Form</a></li>
+								<li id="navimpengform"><a href="engagementImport.html"
+									style="color: black;">Import Engagement Form</a></li>
+							</ul>
+						</div>
+
+					</div>
+				</nav>
+				<!-- end menu header -->
+				<!-- content -->
+				
+				<div class="row">
+					<div class="col-md-12" style="height:25px;"></div>
+				</div>
+				
+				<div id="form">
+			
+				</div>
+				
+        
+				<!-- end content -->
+				</div>
+				</div>
+				</div>
+				<!-- Bootstrap core JavaScript ================================================== -->
+				<!-- Placed at the end of the document so the pages load faster -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/knockout-3.4.2.js"></script>
+				<script src="assets/js/kendo.all.min.js"></script>
+				<script src="assets/js/knockout-kendo.min.js"></script>
+				<script src="assets/js/moment.js"></script>
+				<script src="assets/js/highcharts.js"></script>
+				<script src="assets/js/exporting.js"></script>
+				<script src="assets/js/export-data.js"></script>
+				<script type='text/javascript' src='assets/viewjs/Utils.js'></script>
+				<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+				<script src="assets/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+				<script type="text/javascript" src="assets/alpaca/handlebars.js"></script>
+				<script type="text/javascript" src="assets/alpaca/alpaca.js"></script>
+				<script type='text/javascript' src='assets/viewjs/engagementFormSummary.js'></script>
+				<script type='text/javascript' src='assets/viewjs/viewComponents.js'></script>	
+				
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+		Alpaca.logLevel = Alpaca.DEBUG;
+		
+		var mydata= {
+			"panel0": {
+				"heading" : "Section 1 Solution Review",
+				"panel1" : {
+					"heading" : "1. Data Classification",
+					"para1" : "Here we determine what type of data is being accessed and / or stored. Different security requirements apply to the various combinations of data type and classification.",
+					"para2" : "<a href='https://espressoau.singtelgroup.net/depts/infosec/InfoSec%20Policies%20Standards%20%20Guidelines/Information%20Security%20Standard%20-%20Information%20Classification.docx'>Optus" +
+						"Information Classification</a> Policy and <a href='https://ibox.optus.com.au/infosec/appendix-A.docx'>Appendix" +
+						"A</a> for more information on this subject",
+					"table1" : {
+						"tableData" : [
+							{
+								"col1" : "1.1.1",
+								"col2" : "Personal and Business Customer Information",
+								"col3" : ["Yes", "No", "N/A"],
+								"col4" : ""
+							
+							}
+						],						
+					}
+				}
+			}
+        };
+        
+		$("#form").alpaca({
+        	"schema": {
+                "type": "object",
+                "properties": {
+                	"panel0" : {
+                		"type" : "object",
+                		"properties" : {
+                			"heading" : {
+                				"type" : "string"
+                			},
+                			"panel1" : {
+                				"type" : "object",
+                				"properties" : {
+                					"para1" : {
+                						"type" :"string"
+                					},
+                					"para2" : {
+                						"type" : "string"
+                					},
+                					"table1" : {
+                						"type" : "object",
+                						"properties" : {
+                							"tableData" : {
+                								"type" : "array",
+                								"items" : {
+                									"type" : "object",
+                									"properties" : {
+                										"col1" : {
+                											"type" : "string"
+                										},
+                										"col2" : {
+                											"type" : "string"
+                										},
+                										"col4" : {
+                											"type" : "string"
+                										}
+                									}
+                								}
+                							}
+                						}
+                					}
+                				}
+                			}
+                		}
+                	}
+                }
+            },
+            "options": {
+                "form": {
+                    "buttons": {
+                        "submit": {
+                            "value": "Log In",
+                            "click": function() {
+                                var value = this.getValue();
+                                alert(JSON.stringify(value, null, "  "));
+                            }
+                        }
+                    }
+                }
+            },
+            "data": mydata,
+            
+            "postRender": function(control) {
+                var form = control.form;
+                form.registerSubmitHandler(function() {
+                    console.log("Token is: " + control.getValue().sectionNumber);
+                });
+            },
+            "view": {
+                "parent": "bootstrap-edit",
+                "fields": {
+                    "/panel0/panel1/table1/tableData[0]/col4": {
+                        "templates": {
+                            "control": "/infosec-api/assets/templates-example2-template.html",
+                        }
+                	}
+                },                
+                "layout": {
+                    "template": '/infosec-api/viewcomponents/solutionReviewComp',                    
+                    "bindings": {
+                        "panel0": "#comment1"
+                        
+                    }
+                }
+            }
+        });
+	          
+	});
+	</script>	
+</body>
+
+</html>
+

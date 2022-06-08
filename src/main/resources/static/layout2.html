@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infosec Portal</title>
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="assets/bootstrap/css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="assets/css/googleapi.css">
+<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+<link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap-horizon.css">
+<link rel="stylesheet" href="assets/css/card.css">
+<link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+<link rel="stylesheet" href="assets/css/image-hover.css">
+<link rel="stylesheet" href="assets/css/image-preview.css">
+<link rel="stylesheet" href="assets/css/Login-Form-Dark-1.css">
+<link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+<link rel="stylesheet" href="assets/css/Navigation-with-Button1.css">
+<link rel="stylesheet" href="assets/css/Navigation-with-Search1.css">
+<link rel="stylesheet"
+	href="assets/css/Registration-Form-with-Photo.css">
+<link rel="stylesheet" href="assets/css/starRating.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/toggleButton.css">
+<link rel="stylesheet"
+	href="assets/jsonforms/css/brutusin-json-forms.min.css">
+<script src="assets/jsonforms/js/brutusin-json-forms.js"></script>
+<script src="assets/jsonforms/js/brutusin-json-forms-bootstrap.min.js"></script>
+
+
+<link type="text/css" href="assets/alpaca/alpaca.min.css"
+	rel="stylesheet" />
+
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div id="field1"> </div>
+	</div>
+	
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/knockout-3.4.2.js"></script>
+<script src="assets/js/kendo.all.min.js"></script>
+<script src="assets/js/knockout-kendo.min.js"></script>
+<script src="assets/js/moment.js"></script>
+<script src="assets/js/highcharts.js"></script>
+<script src="assets/js/exporting.js"></script>
+<script src="assets/js/export-data.js"></script>
+<script type='text/javascript' src='assets/viewjs/Utils.js'></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="assets/alpaca/handlebars.js"></script>
+<script type="text/javascript" src="assets/alpaca/alpaca.js"></script>
+<script type='text/javascript'
+	src='assets/viewjs/engagementFormSummary.js'></script>
+<script type='text/javascript' src='assets/viewjs/viewComponents.js'></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	Alpaca.defaultErrorCallback = function(err) {
+	    // log it for our own purposes
+	    console.log("Behold!  An Alpaca error: " + JSON.stringify(err));
+	    // and throw a proper JS error
+	    throw new Error("Alpaca caught an error with the default error handler: " + JSON.stringify(error));
+	};
+	
+	var myData = {			
+		    "address":{
+		        "street":[
+		            "100 Main Street",
+		            "Suite 200"
+		        ],
+		        "city": "Chicago",
+		        "state": "IL",
+		        "zip": "60613"
+		    },
+		    "page" : "some page"
+		    
+		};
+	
+	var mySchema = {
+		    "title": "Customer Profile",
+		    "description": "Alpaca Farm Ice Cream Customer Profile Form.",
+		    "type": "object",
+		    "properties":{
+		        "address":{
+		            "title": "Home Address",
+		            "type": "any"
+		        },
+		        "page" : {
+		        	"type" :"string"
+		        }
+		    }
+		};
+	
+	var myOptions = {
+		    "fields":{
+		        "address":{
+		            "type": "address",
+		            "addressValidation": true
+		        }       
+		    },
+	        "form": {
+	            "buttons": {
+	                "submit": {
+	                    "value": "Log In",
+	                    "click": function() {
+	                        var value = this.getValue();
+	                        alert(JSON.stringify(value, null, "  "));
+	                    }
+	                }
+	            }
+	        }		    
+		};
+	
+	$("#field1").alpaca({
+	    "dataSource": myData,
+	    "optionsSource": myOptions,
+	    "schemaSource": mySchema,
+	    "view": {
+	        "parent": "bootstrap-edit",
+	        "layout": {
+	            "template": "./two-column-layout-template.html",
+	            "bindings": {
+	                "address": "rightcolumn",
+	                "page" : "leftcolumn"
+	            }
+	        },
+	        "fields": {
+	        	"/page": {
+                    "templates": {
+                        "fieldOuterEl": '<span class="alpaca-field" id="${id}-myOuter" alpaca-field-id="${id}"><div>Full Name</div>{{html this.html}}</span>',
+                    },
+                    "styles": {
+                        ".alpaca-field": {
+                            "border": "1px solid #555",
+                            "padding": "2px"
+                        },
+                        ".alpaca-controlfield-label": {
+                            "float": "left",
+                            "margin-top": "0.3em"
+                        }
+                    }
+                },	        	
+	            "/address": {
+	                "layout": {
+	                    "template": "./two-column-layout-template.html",
+	                    "bindings": {
+	                        "street": "leftcolumn",
+	                        "city": "leftcolumn",
+	                        "state": "leftcolumn",
+	                        "zip": "leftcolumn"
+	                    }
+	                },
+	                "styles": {
+	                    "h3": {
+	                        "font-size": "14px",
+	                        "margin": "0px"
+	                    }
+	                }
+	            },
+	            "/address/city": {
+	                "templates": {
+	                    "context-text": "<input type='text' readonly='on' size='20' id='{{id}}' {{#if options.size}}size='{{options.size}}'{{/if}} {{#if options.readonly}}readonly='on'{{/if}} {{#if options.formName}}name='{{options.formName}}'{{/if}} {{#each options.data}}data-{{@index}}='{{.}}'{{/each}}/>"
+	                }
+	            },
+	        }
+	    },
+	    "postRender": function(renderedField) {
+	        var form = renderedField.form;
+	        if (form)
+	        {
+	            form.registerSubmitHandler(function (e) {
+	                alert("Custom Submit Handler");
+	                return false;
+	            });
+	        }
+	    }
+	});	
+	
+});
+</script>
+	

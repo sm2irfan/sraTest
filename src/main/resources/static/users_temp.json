@@ -1,0 +1,10 @@
+{
+  "employeeId":"Employee1",
+  "firstName":"FN1",
+  "lastName":"LN1",
+  "position":"Specialist",
+  "email":"FN1.LN1@gmail.com",
+  "company":"Optus",
+  "imgUrl":"imgUrl1",
+  "role":"REQUESTER"
+}

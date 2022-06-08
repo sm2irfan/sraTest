@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infosec Portal</title>
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="assets/bootstrap/css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="assets/css/googleapi.css">
+<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+<link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap-horizon.css">
+<link rel="stylesheet" href="assets/css/card.css">
+<link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+<link rel="stylesheet" href="assets/css/image-hover.css">
+<link rel="stylesheet" href="assets/css/image-preview.css">
+<link rel="stylesheet" href="assets/css/Login-Form-Dark-1.css">
+<link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+<link rel="stylesheet" href="assets/css/Navigation-with-Button1.css">
+<link rel="stylesheet" href="assets/css/Navigation-with-Search1.css">
+<link rel="stylesheet"
+	href="assets/css/Registration-Form-with-Photo.css">
+<link rel="stylesheet" href="assets/css/starRating.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/toggleButton.css">
+<link rel="stylesheet" href="assets/jsonforms/css/brutusin-json-forms.min.css">
+<script src="assets/jsonforms/js/brutusin-json-forms.js"></script>
+<script src="assets/jsonforms/js/brutusin-json-forms-bootstrap.min.js"></script>
+
+
+<link type="text/css" href="assets/alpaca/alpaca.min.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="mainContent" class="container-fluid">
+	
+	</div>
+	
+<!-- Template begin -->
+<script id="template-test" type="text/x-handlebars-template">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1" style="padding-top: 30px">
+			<!-- menu header -->
+			<nav class="navbar-xs">
+				<div class="container-fluid"
+					style="padding-left: 0px; padding-right: 0px">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed"
+							data-toggle="collapse" data-target="#navbar">
+							<span class="sr-only">Toggle navigation</span> <span
+								class="icon-bar"></span> <span class="icon-bar"></span> <span
+								class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand"> <span
+							style="color: #FDCC08 !important">OPTUS</span>
+						</a>
+					</div>
+
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-left">
+							{{#data.navigation.level0}}
+								{{#xif 'active == true'}}
+									<li class="uxactive"><a class="active"
+										href="{{url}}">{{name}}</a></li>
+								{{else}}
+									<li><a href="{{url}}">{{name}}</a></li>
+								{{/xif}}
+							{{/data.navigation.level0}}
+						</ul>
+					</div>
+
+					<div id="navbar" class="navbar-collapse"
+						style="background-color: white;">
+						<ul class="nav navbar-nav navbar-nav-2nd-level" id="one">
+							{{#data.navigation.level1}}
+								{{#xif 'active == true'}}
+									<li id="navengdash"><a class="activelink"
+										href="{{url}}" style="color: black;">{{name}}</a>
+									</li>
+								{{else}}
+									<li id="navenglist"><a href="{{url}}"
+										style="color: black;">{{name}}</a></li>
+								{{/xif}}
+							{{/data.navigation.level1}}
+						</ul>
+					</div>
+
+				</div>
+			</nav>
+			
+			<div class="row">
+				<div class="col-md-12" style="height: 25px;"></div>
+			</div>
+
+			<div id="form"></div>
+		</div>
+	</div>
+</script>
+
+	<!-- Template End -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/knockout-3.4.2.js"></script>
+<script src="assets/js/kendo.all.min.js"></script>
+<script src="assets/js/knockout-kendo.min.js"></script>
+<script src="assets/js/moment.js"></script>
+<script src="assets/js/highcharts.js"></script>
+<script src="assets/js/exporting.js"></script>
+<script src="assets/js/export-data.js"></script>
+<script type='text/javascript' src='assets/viewjs/Utils.js'></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="assets/alpaca/handlebars.js"></script>
+<script type="text/javascript" src="assets/alpaca/alpaca.js"></script>
+<script type='text/javascript' src='assets/viewjs/viewComponents.js'></script>	
+
+<script type="text/javascript">
+Handlebars.cache=false;
+var source = $("#template-test").html();
+var template = Handlebars.compile(source);
+
+var data = {
+	"data" : {
+		"navigation" : {
+			"level0" : [
+				{
+					"name" : "Enagement",
+					"url" : "engagementDashboard.html"
+					
+				},
+				{
+					"name" : "Risk",
+					"url" : "riskDashboard.html",
+					"active" : true
+				},
+			],
+			"level1" : [
+				{
+					"name" : "Engagement Dashboard",
+					"url" : "engagementDashboard.html"
+					
+				},
+				{
+					"name" : "Engagement List",
+					"url" : "engagementList.html",
+					"active" : true
+				},
+				{
+					"name" : "Engagement Form",
+					"url" : "engagementFormOverview.html"
+				},
+				{
+					"name" : "Import Engagement Form",
+					"url" : "engagementImport.html"
+				},
+
+			]
+		}
+	}		
+};
+
+
+$("#mainContent").append(template(data));
+</script>
+	
+</body>

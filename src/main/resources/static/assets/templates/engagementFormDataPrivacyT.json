@@ -1,0 +1,130 @@
+{
+  "dynamicEngFormDataPrivacyDivData": [
+    {
+	     "panelheader": {
+	     	"value": "2. Data Privacy"
+	     }
+    },
+    {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">If personal data is collected, processed or accessed, it is likely that a Privacy Impact Assessment (PIA) will be required. Once a PIA is carried out, you will need to send a copy of the report to Information Security prior to approval.<\/span> <\/p>"	
+	     }
+	},
+	{
+     	"breakline": true
+    },
+	{
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Data Type",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "2.1"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "DP21",
+				              "value": "<p><span class=\"panel-span-medium\">Will any customer Personally Identifiable Information (PII) be collected, processed or accessed?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "DP21Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "DP21Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "2.2"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "DP22",
+				              "value": "<p><span class=\"panel-span-medium\">Will the Personally Identifiable Information (PII) data, or any portion of it, be accessed offshore?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "DP22Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "DP22Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">If the answer to any of the questions above is 'YES, then it is the responsibility of the project to submit follow up with the Privacy team to expedite approval.<\/span> <\/p>"	
+	     }
+	  },
+	  {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Privacy Dropbox Recommendations"
+				     }
+			    },
+			    {
+				     "panelbody": {
+				     	"type":"paneltext",
+				     	"value": "<p> <span class=\"panel-span-medium\">Please engage Privacy Dropbox <a href=\"mailto:PrivacyDropbox@optus.com.au\">PrivacyDropbox@optus.com.au<\/a> to perform the PIA<\/span> <\/p>"	
+				     }
+				},
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "endUserDPDropBoxRecomComments"
+				     	}
+			        }
+			    }
+			]
+		}
+	 }
+  ]			
+}

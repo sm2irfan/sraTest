@@ -1,0 +1,168 @@
+{
+  "dynamicEngFormSecurityToolsDivData": [
+    {
+	     "panelheader": {
+	     	"value": "8. Security tools"
+	     }
+    },
+    {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">Please answer the below questions to ensure the necessary security controls are implemented<\/span> <\/p>"	
+	     }
+	},
+	{
+     	"breakline": true
+    },
+	{
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Security tools required for Group IT managed infrastructure and Networks High Risk applications",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "8.1"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "ST81",
+				              "value": "<p><span class=\"panel-span-medium\">Has the infrastructure been integrated with HP ArcSight?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "ST81Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "ST81Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "8.2"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "ST82",
+				              "value": "<p><span class=\"panel-span-medium\">Has the infrastructure been integrated with PIAM solution?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "ST82Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "ST82Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "8.3"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "ST83",
+				              "value": "<p><span class=\"panel-span-medium\">Has the infrastructure been integrated with Nessus Vulnerability Scanner?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "ST83Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "ST83Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "8.4"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "ST84",
+				              "value": "<p><span class=\"panel-span-medium\">Has anti malware solution been installed on all servers that support the application?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "ST84Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "ST84Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Additional Information"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "endUserSTComments"
+				     	}
+			        }
+			    }
+			]
+		}
+	 }
+  ]			
+}

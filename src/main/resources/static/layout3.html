@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infosec Portal</title>
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="assets/bootstrap/css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="assets/css/googleapi.css">
+<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+<link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap-horizon.css">
+<link rel="stylesheet" href="assets/css/card.css">
+<link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+<link rel="stylesheet" href="assets/css/image-hover.css">
+<link rel="stylesheet" href="assets/css/image-preview.css">
+<link rel="stylesheet" href="assets/css/Login-Form-Dark-1.css">
+<link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+<link rel="stylesheet" href="assets/css/Navigation-with-Button1.css">
+<link rel="stylesheet" href="assets/css/Navigation-with-Search1.css">
+<link rel="stylesheet"
+	href="assets/css/Registration-Form-with-Photo.css">
+<link rel="stylesheet" href="assets/css/starRating.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/toggleButton.css">
+<link rel="stylesheet"
+	href="assets/jsonforms/css/brutusin-json-forms.min.css">
+<script src="assets/jsonforms/js/brutusin-json-forms.js"></script>
+<script src="assets/jsonforms/js/brutusin-json-forms-bootstrap.min.js"></script>
+
+
+<link type="text/css" href="assets/alpaca/alpaca.min.css"
+	rel="stylesheet" />
+
+
+</head>
+
+<body>
+<div class="container-fluid">
+	
+	<div id="field1"> </div>
+</div>
+	
+<div id="templateContainer"></div>
+	
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.printElement.js"></script>
+<script src="assets/js/knockout-3.4.2.js"></script>
+<script src="assets/js/kendo.all.min.js"></script>
+<script src="assets/js/knockout-kendo.min.js"></script>
+<script src="assets/js/moment.js"></script>
+<script src="assets/js/highcharts.js"></script>
+<script src="assets/js/exporting.js"></script>
+<script src="assets/js/export-data.js"></script>
+<script type='text/javascript' src='assets/viewjs/Utils.js'></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="assets/alpaca/handlebars.js"></script>
+<script type="text/javascript" src="assets/alpaca/alpaca.js"></script>
+<script type='text/javascript'
+	src='assets/viewjs/engagementFormSummary.js'></script>
+<script type='text/javascript' src='assets/viewjs/viewComponents.js'></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	Alpaca.defaultErrorCallback = function(err) {
+	    // log it for our own purposes
+	    console.log("Behold!  An Alpaca error: " + JSON.stringify(err));
+	    // and throw a proper JS error
+	    throw new Error("Alpaca caught an error with the default error handler: " + JSON.stringify(error));
+	};
+	
+	var myData = 		
+		{
+			"content.panel1.heading" : "Section 1 -  Solution Overview",
+			"content.panel1.para1" : "Here we determine what type of data is being accessed and / or stored. Different security requirements apply to the various combinations of data type and classification.",
+			"content.panel1.para2" : "<a href='https://espressoau.singtelgroup.net/depts/infosec/InfoSec%20Policies%20Standards%20%20Guidelines/Information%20Security%20Standard%20-%20Information%20Classification.docx'>Optus" +
+				"Information Classification</a> Policy and <a href='https://ibox.optus.com.au/infosec/appendix-A.docx'>Appendix" +
+				"A</a> for more information on this subject",
+			"content.panel1.table1.row1.col1" : "1.1.1",
+			"content.panel1.table1.row1.col2" : "Personal and Business Customer Information",
+			"content.panel1.table1.row1.col3" : "asdfasdf",
+			"content.panel1.table1.row1.col3.values" : {
+				"id" : "yesNoPanel1",
+				"values" : ["Yes", "No", "N/A"],
+				"selectedValue" : ""
+			},
+			"content.panel1.table1.row1.col4.values" : {
+				"values" : ["Yes", "No", "N/A"]
+			},
+			"name" : ""
+		};
+
+	var mySchema =
+		{
+		    "title": "Customer Profile",
+		    "description": "Alpaca Farm Ice Cream Customer Profile Form.",
+		    "type": "object",
+		    "properties": {
+		    	"content.panel1.heading" :{
+		    		"type" : "string"
+		    	},
+		    	"content.panel1.para1" :{
+		    		"type" : "string"
+		    	},
+		    	"content.panel1.para2" :{
+		    		"type" : "string"
+		    	},
+		    	"content.panel1.table1.row1.col1" : {
+		    		"type": "string"
+		    	},
+		    	"content.panel1.table1.row1.col2" : {
+		    		"type" : "string"
+		    	},
+		    	"content.panel1.table1.row1.col3":{
+		            "type": "string"
+		        },		    	
+		    	"content.panel1.table1.row1.col3.values":{
+		            "type": "object"
+		        },		    	
+		        "content.panel1.table1.row1.col4.values":{
+		            "type": "string"
+		        },
+		        "name":{
+		            "title": "Name",
+		            "description": "Enter your full name.",
+		            "type": "string",
+		            "required": true
+		        }
+		    }
+		};
+	
+	var myOptions = {
+	    "fields":{
+	        "photo":{
+	            "type": "file",
+	            "styled": true
+	        },
+	        "member":{
+	            "rightLabel": "Alpaca Club Member"
+	        },
+	        "address":{
+	            "type": "address",
+	            "addressValidation": true
+	        },		    	
+	    	"content.panel1.table1.row1.col3.values":{
+	            "type": "custom1"
+	        }
+	    }
+	};
+	
+	$("#field1").alpaca({
+	    "dataSource": myData,
+	    "optionsSource": myOptions,
+	    "schemaSource": mySchema,
+	    "view": {
+	        "parent": "bootstrap-edit",
+            "fields": {
+                "/content.panel1.heading": {
+                    "templates": {
+                        "control-text": "#onlyText",
+                    }
+            	},
+                "/content.panel1.para1": {
+                    "templates": {
+                        "control-text": "#onlyText",
+                    }
+            	},
+                "/content.panel1.para2": {
+                    "templates": {
+                        "control-text": "#onlyText",
+                    }
+            	},
+                "/content.panel1.table1.row1.col1": {
+                    "templates": {
+                        "control-text": "#onlyText",
+                    }
+            	},
+                "/content.panel1.table1.row1.col2": {
+                    "templates": {
+                        "control-text": "#onlyText",
+                    }
+            	},
+                "/content.panel1.table1.row1.col3.values": {
+                    "templates": {
+                        "control": "#styleRadio",
+                    }
+            	}
+            },	        
+	        "layout": {
+	            "template": './wizards-example4-template.html',
+	        },
+	        "wizard": {
+	        	"showSteps": false,
+	            "showProgressBar": false,
+	            "buttons": {
+		        	"submit": {
+	                    "title": "All Done!",
+	                    "validate": function(callback) {
+	                        console.log("Submit validate()");
+	                        callback(true);
+	                    },
+	                    "click": function(e) {
+	                        alert(JSON.stringify(this.getValue(), null, "  "));
+	                    },
+	                    "id": "mySubmit",
+	                    "attributes": {
+	                        "data-test": "123"
+	                    }
+	                }
+	            }
+	        }
+	    },
+	    "postRender": function(control) {
+	    	var jobField = control.childrenByPropertyId["content.panel1.table1.row1.col3.values"];
+	    	console.log(jobField.getFieldEl().context);
+	    	
+	        /* var form = renderedField.form;
+	        if (form)
+	        {
+	            form.registerSubmitHandler(function (e) {
+	                alert("Custom Submit Handler");
+	                return false;
+	            });
+	        } */
+	        //$(".alpaca-wizard-nav").remove();
+	    }
+	});	
+	
+	
+	
+});
+</script>
+	

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="expires" content="0"/>
+    <title>Infosec Portal</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" href="assets/css/googleapi.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-horizon.css">
+    <link rel="stylesheet" href="assets/css/card.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/image-hover.css">
+    <link rel="stylesheet" href="assets/css/image-preview.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark-1.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button1.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search1.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/starRating.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/toggleButton.css">
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12" style="padding-top: 30px">
+
+            <!-- menu header -->
+            <nav class="navbar-xs">
+                <div class="container-fluid" style="padding-left:0px;padding-right:0px">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed"
+                                data-toggle="collapse" data-target="#navbar">
+                            <span class="sr-only">Toggle navigation</span> <span
+                                class="icon-bar"></span> <span class="icon-bar"></span> <span
+                                class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand"> <span style="color:#FDCC08 !important">OPTUS</span>
+                        </a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                            <!-- ko if: currentUserRole() == 'ADMIN' || currentUserRole() == 'SPECIALIST' -->
+                            <li class="uxactive"><a class="active" href="engagementDashboard.html">Engagement</a></li>
+                            <!-- /ko -->
+                            <!-- ko if: currentUserRole() == 'REQUESTER' || currentUserRole() == 'OWNER' -->
+                            <li class="uxactive"><a class="active" href="engagementList.html">Engagement</a></li>
+                            <!-- /ko -->
+                            <!-- ko if: currentUserRole() == 'ADMIN' || currentUserRole() == 'SPECIALIST' -->
+                            <li><a href="riskDashboard.html">Risk</a></li>
+                            <!-- /ko -->
+                        </ul>
+                    </div>
+
+                    <div id="navbar" class="navbar-collapse" style="background-color: white;">
+                        <ul class="nav navbar-nav navbar-nav-2nd-level" id="one">
+                            <!-- ko if: currentUserRole() == 'ADMIN' || currentUserRole() == 'SPECIALIST' -->
+                            <li id="navengdash"><a href="engagementDashboard.html" style="color: black;">Engagement Dashboard</a></li>
+                            <!-- /ko -->
+                            <li id="navenglist"><a href="engagementList.html" style="color: black;">Engagement List</a></li>
+                            <li id="navengform"><a class="activelink" href="engagementFormOverview.html" style="color: black;">Engagement Form</a></li>
+                            <li id="navimpengform"><a href="engagementImport.html" style="color: black;">Import Engagement Form</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+            <!-- end menu header -->
+
+            <!-- content -->
+            <div class="row">
+                <div class="col-md-12" style="height:25px;"></div>
+            </div>
+
+            <div class="col-md-12">
+                <!--<div class="row">
+                    <div class="customBreadCrumbs">
+                    <ol class="breadcrumb" style="margin-bottom: 1px">
+                      <li class="activeBreadCrumbs"><a href="engagementFormOverview.html">Overview</a></li>
+                      <li><a href="engagementFormSummary.html">Summary</a></li>
+                      <li><a href="engagementFormSolutionReview.html">Solution Review</a></li>
+                      <li><a href="engagementFormDataPrivacy.html">Data Privacy</a></li>
+                      <li><a href="engagementFormEntRepDatabase.html">EA Repo (MEGA)</a></li>
+                      <li><a href="engagementFormOffWrkGrpApproval.html">OWG</a></li>
+                      <li><a href="engagementFormAppPfSecurity.html">Platform Security</a></li>
+                      <li><a href="engagementFormCldAndThirdPtyHosting.html">Cloud/Third Party Hosting</a></li>
+                      <li><a href="engagementFormCustFacingAppl.html">Customer Facing Application</a></li>
+                      <li><a href="engagementFormSecurityTools.html">Security Tools</a></li>
+                      <li><a href="engagementFormNtwrkMngdSystems.html">Network Managed Systems</a></li>
+                      <li><a href="engagementFormInterfaceContracts.html">Interface Contracts</a></li>
+                      <li><a href="engagementFormSolArchitectureReview.html">Solution Architecture</a></li>
+                      <li><a href="engagementFormSecurityTesting.html">Security Testing</a></li>
+                        &lt;!&ndash; ko if: currentUserRole() == 'ADMIN' || currentUserRole() == 'SPECIALIST' &ndash;&gt;
+                        <li><a href="riskAssessmentForm.html">Risk Assessment Form</a></li>
+                        &lt;!&ndash; /ko &ndash;&gt;
+                        <li><a href="riskForm.html">Risk Form</a></li>
+                    </ol>
+                    </div>
+                </div>-->
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="panel-heading">
+                            <h3 class="panel-title-large">Overview</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                <span class="panel-span-medium">Document Version: 0.48 </span>
+                            </p>
+                        </div>
+                        <div class="panel-heading">
+                            <h3 class="panel-title-medium">Introduction</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+									<span class="panel-span-medium">Singtel/Optus has a legal and
+											contractual obligation to safeguard certain information and
+											telecommunications infrastructure. It is a requirement that
+											all projects involving offshoring, outsourcing, or that
+											potentially expose consumer, business or government customer
+											information to external entities, undergo review by relevant
+											stakeholders.</span></span>
+                            </p>
+                            <p>
+									<span class="panel-span-medium">This form assists you in
+											gathering necessary information and speeding up the
+											engagement and assessment process. Please complete the form
+											as fully as possible and return it Information Security.</span>
+                            </p>
+                            <p>
+									<span class="panel-span-medium">If the change impacts
+											privacy, regulatory, or government and defence contracts, and
+											requires review by the Offshore Working Group (OWG),
+											Information Security will advise you, but a project
+											representative must follow up with OWG to expedite approval.</span>
+                            </p>
+                        </div>
+                        <div class="panel-heading">
+                            <h3 class="panel-title-medium">Objectives</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+									<span class="panel-span-medium">This form examines key
+											areas of the proposed solution or change with the aim of
+											identifying information security risks. The risk analysis
+											verifies whether appropriate safeguards are in place, and
+											that the design complies with relevant regulatory and
+											Information Security policies. It also minimizes the risk
+											of project schedule delays and cost overruns when security
+											requirements must be retrofitted into systems and / or
+											contractual agreements late in the process.</span>
+                            </p>
+                        </div>
+                        <div class="panel-heading">
+                            <h3 class="panel-title-medium">The Engagement and Risk Assessment Process</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>
+                                    <p>
+											<span class="panel-span-medium"><strong>Complete
+														the Information Security Engagement and Risk Assessment
+														Form</strong></span><span class="panel-span-medium"> - The Information Security
+													Engagement and Risk Assessment Form captures the data
+													types, physical locations, the subjects requiring access
+													and other key information. As the project scope may change
+													over time, the form also provides a record of the
+													information provided at the time the change/project was
+													initiated. </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+											<span class="panel-span-medium"><strong>Meet with
+														Information Security</strong></span><span
+                                            class="panel-span-medium"> - On receiving the
+													completed form, a meeting will be arranged with Information
+													Security to clarify and collect further information about
+													the change/project. </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+											<span class="panel-span-medium"><strong>Provide
+														Design Documentation</strong></span><span
+                                            class="panel-span-medium"> - This includes, but is
+													not limited to application architecture, network topology
+													diagrams, file schema and any other relevant system
+													documentation. </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+											<span class="panel-span-medium"><strong>Get OWG
+														approval, if required</strong></span><span
+                                            class="panel-span-medium"> - Where you have been
+													informed that OWG approval is required, you should get this
+													before going any further. </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+											<span class="panel-span-medium"><strong>Arrange
+														Security Testing</strong></span><span
+                                            class="panel-span-medium"> - Performed prior to
+													release into production, in an environment that accurately
+													represents production, and not on a development platform.
+													The test involves techniques to circumvent the
+													application's security defences to discover
+													vulnerabilities. Certified security specialists must
+													perform the test. When completed, copies of all test
+													results must be provided to Information Security. The
+													project managers should allow additional time to remediate
+													the issues discovered during the testing. The re test needs
+													to be organised (if necessary) to confirm that the issues
+													are successfully remediated </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+											<span class="panel-span-medium"><strong>All
+														deviations need to be approved by ISDC</strong></span><span
+                                            class="panel-span-medium"> - If any Group IT Security
+													policy deviation or risks are identified and can't be
+													remediated before go live, the project needs to receive the
+													sign off from ISDC committee. The detailed process is
+													described here: </span><a
+                                            href="https://espressoau.singtelgroup.net/depts/infosec/InfoSec%20Policies%20Standards%20%20Guidelines/Infosec%20Security%20Deviation%20Request.pptx"><span
+                                            style="color: #0000ff;"><span
+                                            style="font-family: 'Times New Roman', serif;"><span
+                                            style="font-size: small;"><u>https://espressoau.singtelgroup.net/depts/infosec/InfoSec%20Policies%20Standards%20%20Guidelines/Infosec%20Security%20Deviation%20Request.pptx</u></span></span></span></a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+											<span class="panel-span-medium"><strong>Get
+														Approval</strong></span><span
+                                            class="panel-span-medium"> - Sign-off is dependent on
+													all applicable items in section 3 being met successfully. </span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="panel-group-body">
+                            <div class="panel-body">
+                                <div class="col-md-12">
+                                    <div class="button-panel" align="center">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- end of content -->
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="panel-heading">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="panel-title-large">New Engagement</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label class="label-custom">Project Name</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <input id="inputProjectName" name="inputProjectname" type="text" class="form-control" data-bind="value: projectName">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-panel" align="center" class="col-md-6">
+                        <button class="btn btn-primary" type="button" data-bind="click: createEngagement">Submit</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="modal fade" id="alertModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="panel-heading">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="panel-heading" align="center">
+                        <h5 class="panel-title">
+                            <div class="modal-body">
+                                <p></p>
+                            </div>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/spin.js"></script>
+<script src="assets/js/knockout-3.4.2.js"></script>
+<script src="assets/js/kendo.all.min.js"></script>
+<script src="assets/js/knockout-kendo.min.js"></script>
+<script src="assets/js/knockout.validation.js"></script>
+<script src="assets/viewjs/commons.js"></script>
+<script src="assets/viewjs/engagementFormOverview.js"></script>
+<script src="assets/viewjs/Utils.js"></script>
+<script src="assets/js/moment.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap-datepicker.min.js"></script>
+
+
+</body>
+
+</html>

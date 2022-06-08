@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+    <title>Infosec Portal</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="assets/css/googleapi.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-horizon.css">
+    <link rel="stylesheet" href="assets/css/card.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/image-hover.css">
+    <link rel="stylesheet" href="assets/css/image-preview.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark-1.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button1.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search1.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/starRating.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/toggleButton.css">
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12" style="padding-top: 30px">
+			
+				<!-- menu header -->
+				<nav class="navbar-xs">
+					<div class="container-fluid" style="padding-left:0px;padding-right:0px">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed"
+								data-toggle="collapse" data-target="#navbar">
+								<span class="sr-only">Toggle navigation</span> <span
+									class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand"> <span style="color:#FDCC08 !important">OPTUS</span>
+							</a>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							<ul class="nav navbar-nav navbar-left">
+								<li class="active"><a href="engagementDashboard.html">Engagement</a></li>
+								<li class="uxactive"><a  href="riskDashboard.html">Risk</a></li>
+							</ul>
+						</div>
+						
+						<div id="navbar" class="navbar-collapse" style="background-color: white;">
+						    <ul class="nav navbar-nav navbar-nav-2nd-level" id="one">
+						      <li id="navengdash"><a href="riskDashboard.html" style="color: black;">Risk Dashboard</a></li>
+						      <li id="navenglist"><a class = "activelink" href="riskList.html" style="color: black;">Risk List</a></li>
+						    </ul>
+						</div> 
+						
+					</div>
+				</nav>
+				<!-- end menu header -->
+				
+				<!-- content -->
+				<div class="row">
+					<div class="col-md-12" style="height:25px;"></div>
+				</div>
+
+				<!--<div class="row">
+					<div class="col-md-12">
+						<table class="table table-striped" id="searchEngagement">
+							<thead>
+								<tr>
+									<th>Engagements</th>
+									<th>Risk Id</th>
+									<th>Project Name</th>
+									<th>Business Owner</th>
+									<th>Infosec Resource</th>
+									<th>Risk Status</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<select id="engagementIds"
+												name="engagementIds"
+												class="form-control select-width-auto"
+												data-bind="options: engagementIds, optionsText: 'name', optionsValue: 'id', value: engagementId"
+												data-toggle="tooltip" title="Please select">
+										</select>
+									</td>
+									<td style="border-top:none">
+										<input type="text" data-bind="textInput: riskId">
+									</td>
+									<td style="border-top:none">
+										<input type="text" data-bind="textInput: projectName">
+									</td>
+									<td style="border-top:none">
+										<input type="text" data-bind="textInput: businessOwner">
+									</td>
+									<td style="border-top:none">
+										<input type="text" data-bind="textInput: infosecResource">
+									</td>
+									<td style="border-top:none">
+										<select id="engagementStatus"
+												name="engagementStatus"
+												class="form-control select-width-auto"
+												data-bind="options: riskStatuses, optionsText: 'name', optionsValue: 'id', value: riskStatus"
+												data-toggle="tooltip" title="Please select">
+										</select>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-1">
+						<div class="button-panel" align="left">
+							<button class="btn btn-primary" type="button" data-bind="click: searchRisks">Search</button>
+						</div>
+					</div>
+				</div>
+
+				&lt;!&ndash; content &ndash;&gt;
+				<div class="row">
+					<div class="col-md-12" style="height:25px;"></div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12" style="height:25px;"></div>
+				</div>-->
+
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<table class="table table-striped" id="riskAll">
+								<tfoot>
+									<tr>
+										<th>Engagement ID</th>
+										<th>Risk ID</th>
+										<th>Risk Level</th>
+										<th>Risk Name</th>
+										<th>Project Name</th>
+										<th>Risk Owner</th>
+										<th>Raised Datetime</th>
+										<th>Risk Status</th>
+										<th>Completed Datetime</th>
+										<th>InfoSec Resource</th>
+									</tr>
+								</tfoot>
+								<thead>
+									<tr>
+										<th>Engagement ID</th>
+										<th>Risk ID</th>
+										<th>Risk Level</th>
+										<th>Risk Name</th>
+										<th>Project Name</th>
+										<th>Risk Owner</th>
+										<th>Raised Datetime</th>
+										<th>Risk Status</th>
+										<th>Completed Datetime</th>
+										<th>InfoSec Resource</th>
+									</tr>
+								</thead>
+								<tbody data-bind="foreach: riskItems">
+									<tr>
+										<td><a href="#" value="engagementFormSummary.html" data-bind="click: $root.navigateTo, text: engagementId"></a></td>
+										<td><a href="#" value="riskForm.html" data-bind="click: $root.navigateTo, text: riskId"></a></td>
+										<td data-bind="text: riskLevel"></td>
+										<td data-bind="text: riskName"></td>
+										<td data-bind="text: projectName"></td>
+										<td data-bind="text: riskOwner"></td>
+										<td data-bind="text: raisedDatetime"></td>
+										<td data-bind="text: riskStatus"></td>
+										<td data-bind="text: completedDatetime"></td>
+										<td data-bind="text: infosecResource"></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				<!-- end of content -->
+			</div>
+		</div>
+	</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/spin.js"></script>
+<script src="assets/js/knockout-3.4.2.js"></script>
+<script src="assets/js/kendo.all.min.js"></script>
+<script src="assets/js/knockout-kendo.min.js"></script>
+<script src="assets/js/moment.js"></script>
+<script type='text/javascript' src='assets/viewjs/Utils.js'></script>
+<script type='text/javascript' src='assets/viewjs/commons.js'></script>
+<script type='text/javascript' src='assets/viewjs/riskList.js'></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+<link rel="stylesheet" href="assets/css/commons.css">
+
+
+</body>
+
+
+</html>

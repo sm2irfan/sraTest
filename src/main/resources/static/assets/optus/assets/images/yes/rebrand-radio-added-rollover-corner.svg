@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="46px" viewBox="0.5 1 48 46" enable-background="new 0.5 1 48 46" xml:space="preserve">
+<g id="FixedBundleConsumer">
+	<g id="Components" transform="translate(-978.000000, -803.000000)">
+		<g id="FE25D-_x26_-FE25E" transform="translate(461.000000, 802.000000)">
+			<g id="added-corner" transform="translate(517.000000, 1.000000)">
+				<polyline id="Rectangle-82" fill="#00A3AD" points="0.5,1 48.5,1 48.5,47 0.5,1 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g enable-background="new    ">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="27.5" y="10" width="12" height="12"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<defs>
+				<rect id="SVGID_3_" x="27.5" y="10" width="12" height="12"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  overflow="visible"/>
+			</clipPath>
+			
+				<line clip-path="url(#SVGID_4_)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="38.2" y1="20.7" x2="28.5" y2="11"/>
+			
+				<line clip-path="url(#SVGID_4_)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="28.5" y1="20.7" x2="38.2" y2="11"/>
+		</g>
+	</g>
+</g>
+</svg>

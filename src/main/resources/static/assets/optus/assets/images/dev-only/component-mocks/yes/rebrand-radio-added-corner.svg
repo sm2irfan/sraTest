@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="46px" viewBox="0 0 48 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>added corner</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="FixedBundleConsumer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Components" transform="translate(-978.000000, -803.000000)">
+            <g id="FE25D-&amp;-FE25E" transform="translate(461.000000, 802.000000)">
+                <g id="added-corner" transform="translate(517.000000, 1.000000)">
+                    <polyline id="Rectangle-82" fill="#00A3AD" points="-2.85675876e-13 -1.53289494e-13 48 0.0363950128 48 46 -2.85675876e-13 -1.53289494e-13"></polyline>
+                    <rect id="Rectangle-137" fill="#FFFFFF" transform="translate(29.000000, 16.000000) rotate(-45.000000) translate(-29.000000, -16.000000) " x="28" y="13" width="2" height="6"></rect>
+                    <polyline id="Rectangle-137" fill="#FFFFFF" points="37.4486104 8.98930283 38.88729 10.3786196 30.5513896 19.0106972 29.11271 17.6213804 37.4486104 8.98930283"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

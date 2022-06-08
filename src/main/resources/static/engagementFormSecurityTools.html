@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+    <title>Infosec Portal</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" href="assets/css/googleapi.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-horizon.css">
+    <link rel="stylesheet" href="assets/css/card.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/image-hover.css">
+    <link rel="stylesheet" href="assets/css/image-preview.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark-1.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button1.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search1.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/starRating.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/toggleButton.css">
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12" style="padding-top: 30px">
+			
+				<!-- menu header -->
+				<nav class="navbar-xs">
+					<div class="container-fluid" style="padding-left:0px;padding-right:0px">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed"
+								data-toggle="collapse" data-target="#navbar">
+								<span class="sr-only">Toggle navigation</span> <span
+									class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand"> <span style="color:#FDCC08 !important">OPTUS</span>
+							</a>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							<ul class="nav navbar-nav navbar-left">
+								<!-- ko if: currentUserRole() == 'ADMIN' || currentUserRole() == 'SPECIALIST' -->
+								<li class="uxactive"><a class="active" href="engagementDashboard.html">Engagement</a></li>
+								<!-- /ko -->
+								<!-- ko if: currentUserRole() == 'REQUESTER' || currentUserRole() == 'OWNER' -->
+								<li class="uxactive"><a class="active" href="engagementList.html">Engagement</a></li>
+								<!-- /ko -->
+								<!-- ko if: currentUserRole() == 'ADMIN' || currentUserRole() == 'SPECIALIST' -->
+								<li><a href="riskDashboard.html">Risk</a></li>
+								<!-- /ko -->
+							</ul>
+						</div>
+						
+						<div id="navbar" class="navbar-collapse" style="background-color: white;">
+						    <ul class="nav navbar-nav navbar-nav-2nd-level" id="one">
+								<!-- ko if: currentUserRole() == 'ADMIN' || currentUserRole() == 'SPECIALIST' -->
+								<li id="navengdash"><a href="engagementDashboard.html" style="color: black;">Engagement Dashboard</a></li>
+								<!-- /ko -->
+						      <li id="navenglist"><a href="engagementList.html" style="color: black;">Engagement List</a></li>
+						      <li id="navengform"><a class = "activelink" href="engagementFormOverview.html" style="color: black;">Engagement Form</a></li>
+						      <li id="navimpengform"><a href="engagementImport.html" style="color: black;">Import Engagement Form</a></li>
+						    </ul>
+						</div> 
+						
+					</div>
+				</nav>
+				<!-- end menu header -->
+				
+				<!-- content -->
+				<div class="row">
+					<div class="col-md-12" style="height:25px;"></div>
+				</div>
+				<div class="col-md-12">
+					<div class="row">
+						<div class="customBreadCrumbs">
+	            		<ol class="breadcrumb" style="margin-bottom: 1px">
+							<!--<li><a href="#" value="engagementFormOverview.html">Overview</a></li>-->
+							<li><a href="#" value="engagementFormSummary.html" data-bind="click: navigateTo">Summary</a></li>
+							<li><a href="#" value="engagementFormSolutionReview.html" data-bind="click: navigateTo">Solution Review</a></li>
+							<li><a href="#" value="engagementFormDataPrivacy.html" data-bind="click: navigateTo">Data Privacy</a></li>
+							<li><a href="#" value="engagementFormEntRepDatabase.html" data-bind="click: navigateTo">EA Repo (MEGA)</a></li>
+							<li><a href="#" value="engagementFormOffWrkGrpApproval.html" data-bind="click: navigateTo">OWG</a></li>
+							<li><a href="#" value="engagementFormAppPfSecurity.html" data-bind="click: navigateTo">Platform Security</a></li>
+							<li><a href="#" value="engagementFormCldAndThirdPtyHosting.html" data-bind="click: navigateTo">Cloud/Third Party Hosting</a></li>
+							<li><a href="#" value="engagementFormCustFacingAppl.html" data-bind="click: navigateTo">Customer Facing Application</a></li>
+							<li class="activeBreadCrumbs"><a href="#" value="engagementFormSecurityTools.html" data-bind="click: navigateTo">Security Tools</a></li>
+							<li><a href="#" value="engagementFormNtwrkMngdSystems.html" data-bind="click: navigateTo">Network Managed Systems</a></li>
+							<li><a href="#" value="engagementFormInterfaceContracts.html" data-bind="click: navigateTo">Interface Contracts</a></li>
+							<li><a href="#" value="engagementFormSolArchitectureReview.html" data-bind="click: navigateTo">Solution Architecture</a></li>
+							<li><a href="#" value="engagementFormSecurityTesting.html" data-bind="click: navigateTo">Security Testing</a></li>
+							<!-- ko if: (currentUserRole() == 'ADMIN' || currentUserRole() == 'SPECIALIST') && engagementStatusName()!='DRAFT' -->
+							<li><a href="#" value="riskAssessmentForm.html" data-bind="click: navigateTo">Risk Pre-Approval Form</a></li>
+							<!-- /ko -->
+							<!-- ko if: engagementStatusName()!='DRAFT' -->
+							<li><a href="#" value="riskForm.html" data-bind="click: navigateTo">Risk Form</a></li>
+							<!-- /ko -->
+						</ol>
+						</div>
+	            	</div>
+			        <div class="panel panel-default">
+			            <div class="panel-body">
+							
+							<!-- start of dynamic loading -->
+				                <div id="dynamicEngFormSecurityToolsDivData">
+				            	</div>
+				            <!-- end of dynamic loading -->
+							<!-- ko if: engagementStatusName() != 'DRAFT' && ($root.currentUserRole() == 'ADMIN' || $root.currentUserRole() == 'SPECIALIST') -->
+							<div class="panel-group-body" >
+								<div class="panel-body">
+									<div class="col-md-5" align="center">
+									</div>
+									<!--<div class="col-md-2" align="center">
+										<h2>Engagement Status</h2>
+									</div>-->
+									<div class="col-md-2" align="center">
+										<select id="engagementStatus"
+												name="engagementStatus"
+												class="form-control select-width-auto"
+												data-bind="options: $root.engagementStatuses, optionsText: 'name', optionsValue: 'id', value: engagementStatusId, event:{ change: checkEngagementStatus}"
+												data-toggle="tooltip" title="Please select">
+										</select>
+									</div>
+									<div class="col-md-5" align="center">
+									</div>
+								</div>
+							</div>
+							<!-- /ko -->
+			                <div class="panel-group-body">
+							    <div class="panel-body">
+							        <div class="col-md-2" align="center">
+							        	<a href="engagementFormCustFacingAppl.html"><button class="btn btn-primary" type="button" data-bind="click: goPrev">Prev</button></a>
+							        </div>
+							        <div class="col-md-8">
+							            <div class="button-panel" align="center"> 
+							                <button class="btn btn-primary" type="button" data-bind="click: saveOrUpdateEngagement">Save</button>
+											<!-- ko if: engagementStatusName() == 'DRAFT' -->
+											<button class="btn btn-primary" type="button" data-bind="click: submitEngagement">Send Engagement</button>
+											<!-- /ko -->
+											<button class="btn btn-primary" type="button" data-bind="click: generateEngagementCertificate, visible: ((currentUserRole() == 'ADMIN' || currentUserRole() == 'SPECIALIST') && showGenerateCertificateButton())">Generate Certificate</button>
+							            </div>
+							        </div>
+							        <div class="col-md-2" align="center">
+							        	<a href="engagementFormNtwrkMngdSystems.html"><button class="btn btn-primary" type="button" data-bind="click: goNext">Next</button></a>
+							        </div>
+								</div>
+							</div>
+
+							<div class="panel-heading">
+								<h3 class="panel-title-medium">Files</h3>
+							</div>
+
+							<div class="panel-group-body">
+								<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2">
+											<form action= "/" target="upload_target" method="POST" id="fileUpload" name="fileUpload" class="form-horizontal wpc_contact" novalidate="novalidate" enctype="multipart/form-data">
+												<fieldset>
+													<div class="controls">
+														<input class="input-file" id="fileInput" type="file" name="file">
+													</div>
+													<div class="col-md-12">
+														<div class="row">
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="row">
+														</div>
+													</div>
+													<!-- Button -->
+													<div class="button-panel" align="left">
+														<button class="btn btn-primary" type="submit">Upload</button>
+													</div>
+												</fieldset>
+											</form>
+											<iframe id="upload_target" name="upload_target" src="#" style="width:0;height:0;border:0px solid #fff;"></iframe>
+										</div>
+										<div class="col-md-8">
+											<div class="button-panel" align="center">
+												<button align="center" class="btn btn-primary" type="button" data-bind="click: downloadZipFile">Download Engagement Files As Zip</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-12">
+											<div class="panel panel-default">
+												<div class="panel-body">
+													<table class="table table-striped" id="uploadedFiles">
+														<thead>
+														<tr>
+															<th>Uploaded Files</th>
+														</tr>
+														</thead>
+														<tbody data-bind="foreach: uploadedFileList">
+														<tr>
+															<td><a href="#" data-bind="click: $root.downloadUploadedFile, text: $data"></a></td>
+														</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+			                
+                		</div>
+                	</div>
+                </div>
+				<!-- end of content -->
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="modal fade" id="alertModal" role="dialog">
+			<div class="modal-dialog">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="panel-heading">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="panel-heading" align="center">
+							<h5 class="panel-title">
+								<div class="modal-body">
+									<p></p>
+								</div>
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/spin.js"></script>
+<script src="assets/js/knockout-3.4.2.js"></script>
+<script src="assets/js/kendo.all.min.js"></script>
+<script src="assets/js/knockout-kendo.min.js"></script>
+<script src="assets/js/knockout.validation.js"></script>
+<script type='text/javascript' src='assets/viewjs/Utils.js'></script>
+<script type='text/javascript' src='assets/viewjs/commons.js'></script>
+<script type='text/javascript' src='assets/parser/engagementFormTemplateParser.js'></script>
+<script type='text/javascript' src='assets/viewjs/engagementFormSecurityTools.js'></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap-datepicker.min.js"></script>
+
+<script>
+
+</script>
+
+</body>
+
+</html>

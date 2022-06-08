@@ -1,0 +1,2861 @@
+{
+  "dynamicEngFormCustFacingApplDivData": [
+  	{
+	     "panelheader": {
+	     	"value": "7. Customer facing applications (Optus branded)"
+	     }
+     },
+     {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">See the Web Access Management Standards for more information on this subject.<\/span> <\/p>"
+	     }
+	 },
+	 {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Customer Facing Web Applications",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "7.1.1"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CFA711",
+				              "value": "<p><span class=\"panel-span-medium\">Does the scope of the review include any Customer facing application (Optus branded)?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CFA711Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureG"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CFA711Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "7.1.2"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CFA712",
+				              "value": "<p><span class=\"panel-span-medium\">Is user authentication and registration managed outside of the following authentication platforms; My Account, OB SMB, SiteMinder or ServiceNow?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CFA712Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureB_B1_B8"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CFA712Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "7.1.3"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CFA713",
+				              "value": "<p><span class=\"panel-span-medium\">Does application allow access to customer information, such as billing information, call records or information classified as \"Optus Secret\"?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CFA713Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureB_B9"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CFA713Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "7.1.4"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CFA714",
+				              "value": "<p><span class=\"panel-span-medium\">Does the project introduce or modify any HTTP Header Enrichment process?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CFA714Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ],
+				              "dependencyname": "AnnexureH"
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CFA714Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "7.1.5"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CFA715",
+				              "value": "<p><span class=\"panel-span-medium\">Is Akamai WAF deployed to protect the appication?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CFA715Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CFA715Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	]
+	     }
+	 },
+	 {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Mobile Applications",
+				          "",
+				          "Comments"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "7.2.1"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CFA721",
+				              "value": "<p><span class=\"panel-span-medium\">Does the scope of the review include any Customer facing mobile application (Optus branded)?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CFA721Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CFA721Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "7.2.2"
+				            },
+				            {
+				              "type": "textandcomments",
+							  "id": "CFA722",
+				              "value": "<p><span class=\"panel-span-medium\">Does the scope of the review include any mobile application for Internal use (used by Optus employees or contractors)?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "CFA722Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "CFA722Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	]
+	     }
+	 },
+	 {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">If the answer to question 7.2.1 above is 'YES', then <a href=\"https:\/\/espressoau.singtelgroup.net\/depts\/infosec\/InfoSec%20Policies%20Standards%20%20Guidelines\/Standards\/Mobile%20Application%20Security%20Requirement%20Checklist.docx\">Mobile Application Security Checklist<\/a> needs to be completed and provided to InfoSec for review <\/span> <\/p> <p> <span class=\"panel-span-medium\">If the answer to question 7.2.2 above is 'YES', the mobile device needs to be managed by MobileIron.<\/span> <\/p>"
+	     }
+	 },
+	 {
+	     "breakline": "true"
+	 },
+     {
+	     "paneldefault": {
+	     	"dependencynameslist": ["AnnexureG"],
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Annexure G - Web application Requirements"
+				     }
+			    },
+			    {
+				    "panelbody": {
+				    	"type": "panelcontent",
+				     	"value": [
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureG"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "G.1",
+										          "Injection - Injection flaws, such as SQL, OS, and LDAP injection occur when untrusted data is sent to an interpreter as part of a command or query. The attacker's hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorisation.",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.1.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG1G11",
+										              "value": "<p><span class=\"panel-span-medium\">Are parameterized queries or prepared statements utilised to prevent injection of untrusted/un-validated input?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG1G11Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG1G11Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.1.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG1G12",
+										              "value": "<p><span class=\"panel-span-medium\">Are stored procedures utilised to prevent injection of untrusted/un-validated input?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG1G12Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG1G12Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.1.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG1G13",
+										              "value": "<p><span class=\"panel-span-medium\">Is white list input validation utilised to define what input data is authorised?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG1G13Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG1G13Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "G.2",
+										          "Authentication and Session Management - Application functions related to authentication and session management are often not implemented correctly, allowing attackers to compromise passwords, keys, or session tokens, or to exploit other implementation flaws to assume other users' identities.",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G21",
+										              "value": "<p><span class=\"panel-span-medium\">Do all pages and resources by default require authentication except those specifically intended to be public?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G21Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G21Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G22",
+										              "value": "<p><span class=\"panel-span-medium\">Are all authentication controls enforced on the server side?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G22Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G22Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G23",
+										              "value": "<p><span class=\"panel-span-medium\">Do all authentication controls Fail securely to ensure attackers cannot log in?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G23Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G23Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G24",
+										              "value": "<p><span class=\"panel-span-medium\">Are all authentication decisions logged?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G24Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G24Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G25",
+										              "value": "<p><span class=\"panel-span-medium\">Are account passwords stored with the use of strong encryption?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G25Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G25Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G26",
+										              "value": "<p><span class=\"panel-span-medium\">Are credentials transported using strong transport encryption and do all pages/functions that require a user to enter credentials transmitted utilising strong transit encryption? (i.e. TLS)</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G26Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G26Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.7"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G27",
+										              "value": "<p><span class=\"panel-span-medium\">Is the application developed such that the forgotten password function and other recovery paths do not reveal the current password and that the new password is not sent in clear text to the user?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G27Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G27Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.8"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G28",
+										              "value": "<p><span class=\"panel-span-medium\">Is the application developed such that information disclosure is not possible via login, password reset, or forgotten account functionality?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G28Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G28Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.9"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G29",
+										              "value": "<p><span class=\"panel-span-medium\">Has it been confirmed that no default passwords are in use for the application framework or any component used by the application?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G29Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G29Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.10"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G210",
+										              "value": "<p><span class=\"panel-span-medium\">Is the application configured to disallow the reuse of previous passwords for a certain period?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G210Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G210Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.11"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G211",
+										              "value": "<p><span class=\"panel-span-medium\">Is request throttling utilised to prevent automated attacks against common authentication attacks such as brute force or denial of service attacks?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G211Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G211Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.12"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G212",
+										              "value": "<p><span class=\"panel-span-medium\">Are the administrative interfaces of the application not accessible to untrusted parties?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G212Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G212Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": "<p><span class=\"panel-span-medium\"><strong>Session Management</strong></span></p>"
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            },
+										            {
+										              "type": "text",
+										              "value": ""
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.13"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G213",
+										              "value": "<p><span class=\"panel-span-medium\">Are all user sessions are invalidated when the user logs out?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G213Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G213Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.14"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G214",
+										              "value": "<p><span class=\"panel-span-medium\">Do all user sessions timeout after a specified period of inactivity?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G214Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G214Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.15"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G215",
+										              "value": "<p><span class=\"panel-span-medium\">Is the Web application developed such that the session ID is never disclosed in URLs or error messages?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G215Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G215Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.16"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G216",
+										              "value": "<p><span class=\"panel-span-medium\">Do all successful authentication and re-authentication generate a new session and session ID?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G216Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G216Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.2.17"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG2G217",
+										              "value": "<p><span class=\"panel-span-medium\">Are active concurrent sessions limited?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG2G217Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG2G217Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "G.3",
+										          "Cross-Site Scripting (XSS) - XSS flaws occur whenever an application takes untrusted data and sends it to a web browser without proper validation or escaping. XSS allows attackers to execute scripts in the victim's browser which can hijack user sessions, deface websites, or redirect the user to malicious sites.",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.3.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG3G31",
+										              "value": "<p><span class=\"panel-span-medium\">Is untrusted data based on the HTML context (body, attribute, JavaScript, CSS, or URL) escaped?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG3G31Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG3G31Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.3.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG3G32",
+										              "value": "<p><span class=\"panel-span-medium\">Is white list input validation utilised to define what input data is authorised?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG3G32Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG3G32Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "G.4",
+										          "Insecure Direct Object References - A direct object reference occurs when a developer exposes a reference to an internal implementation object, such as a file, directory, or database key. Without an access control check or other protection, attackers can manipulate these references to access unauthorised data.",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.4.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG4G41",
+										              "value": "<p><span class=\"panel-span-medium\">Do direct references to restricted resources verify the user is authorised to access the exact resource they have requested?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG4G41Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG4G41Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.4.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG4G42",
+										              "value": "<p><span class=\"panel-span-medium\">Do indirect references limit the values to those authorised for the current user?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG4G42Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG4G42Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "G.5",
+										          "Security Misconfiguration - Security requires having a secure configuration defined and deployed for the application, frameworks, application server, web server, database server, and platform. Secure settings should be defined, implemented, and maintained, as defaults are often insecure. Additionally, software should be kept up to date.",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.5.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG5G51",
+										              "value": "<p><span class=\"panel-span-medium\">Are components of the software stack up to date? (i.e., Web Server, Application Server, DBMS, code libraries, etc.)</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG5G51Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG5G51Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.5.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG5G52",
+										              "value": "<p><span class=\"panel-span-medium\">Are unnecessary features disabled? (i.e., ports, services, pages, accounts, etc.)</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG5G52Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG5G52Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "G.6",
+										          "Sensitive Data Exposure - Many web applications do not properly protect Sensitive data, such as credit cards, tax IDs, and authentication credentials. Attackers may steal or modify such weakly protected data to conduct credit card fraud, identity theft, or other crimes. Sensitive data deserves extra protection such as encryption at rest or in transit, as well as special precautions when exchanged with the browser.",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.6.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG6G61",
+										              "value": "<p><span class=\"panel-span-medium\">Is Sensitive data (i.e., Optus Sensitive, Optus Restricted, PII, etc.) encrypted at rest and in transit?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG6G61Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG6G61Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.6.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG6G62",
+										              "value": "<p><span class=\"panel-span-medium\">Are strong encryption and associated strong keys used and managed? (i.e., AES-128, SHA-256, etc.)</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG6G62Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG6G62Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.6.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG6G63",
+										              "value": "<p><span class=\"panel-span-medium\">Are passwords stored with an encryption suite designed specifically for password protection? (i.e., bcrypt, PBKDF2, scrypt, etc.)</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG6G63Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG6G63Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "G.7",
+										          "Function Level Access Control - Most web applications verify function level access rights before making that functionality visible in the UI. However, applications need to perform the same access control checks on the server when each function is accessed. If requests are not verified, attackers will be able to forge requests in order to access functionality without proper authorisation.",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.7.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG7G71",
+										              "value": "<p><span class=\"panel-span-medium\">Is a deny all access mechanism enforced until access is explicitly provided?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG7G71Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG7G71Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.7.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG7G72",
+										              "value": "<p><span class=\"panel-span-medium\">Are accesses to application functions given with the least privilege required?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG7G72Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG7G72Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.7.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG7G73",
+										              "value": "<p><span class=\"panel-span-medium\">Are unauthorised functions hidden based on the privileges of the user?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG7G73Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG7G73Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "G.8",
+										          "Cross-Site Request Forgery (CSRF) - A CSRF attack forces a logged-on victim's browser to send a forged HTTP request, including the victims session cookie and any other automatically included authentication information to a vulnerable Web application. This allows the attacker to force the victim's browser to generate requests the vulnerable application thinks are legitimate requests from the victim.",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.8.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG8G81",
+										              "value": "<p><span class=\"panel-span-medium\">Does the application include a unique session token in each HTTP request?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG8G81Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG8G81Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.8.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG8G82",
+										              "value": "<p><span class=\"panel-span-medium\">Does the application make use of re-authentication for the user or method of proving they are an actual user? (i.e., CAPTCHA)</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG8G82Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG8G82Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "G.9",
+										          "Un-Validated Redirects and Forwards - Web applications frequently redirect and forward users to other pages and websites and use untrusted data to determine the destination pages. Without proper validation, attackers can redirect victims to phishing or malware sites or use forwards to access unauthorised pages.",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.9.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG9G91",
+										              "value": "<p><span class=\"panel-span-medium\">Are user parameters not utilised in calculating the destination URL?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG9G91Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG9G91Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "G.9.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexGG9G92",
+										              "value": "<p><span class=\"panel-span-medium\">Is the target URL validated?</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexGG9G92Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexGG9G92Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 }
+				     	]
+				    }
+				}
+			]
+	     }
+	 },
+	 {
+	     "paneldefault": {
+	     	"dependencynameslist": ["AnnexureB_B1_B8","AnnexureB_B9"],
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Annexure B - Identification and Authentication - Web Applications"
+				     }
+			    },
+			    {
+				    "panelbody": {
+				    	"type": "panelcontent",
+				     	"value": [
+				     		{
+					     		"panelbody": {
+					     			"type":"paneltext",
+							     	"value": "<p><span class=\"panel-span-medium\"><strong>For full details of identification and authentication requirements, refer to the Optus Web Authentication standards document.<strong><\/span><\/p>"
+							     }
+						     },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist": ["AnnexureB_B1_B8"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "B.1",
+										          "Password Requirements",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.1.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB1B11",
+										              "value": "<p><span class=\"panel-span-medium\">Passwords must be stored securely, using a salted one way hash.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB1B11Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB1B11Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.1.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB1B12",
+										              "value": "<p><span class=\"panel-span-medium\">The system must employ checks to ensure user-created passwords meet Information Security complexity requirements.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB1B12Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB1B12Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.1.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB1B13",
+										              "value": "<p><span class=\"panel-span-medium\">If the password does not expire, the user is advised by the application to periodically change their password.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB1B13Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB1B13Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.1.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB1B14",
+										              "value": "<p><span class=\"panel-span-medium\">The system must employ controls to protect against brute force attacks, such as IP address blocking, or locking account after a successive number of failed attempts.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB1B14Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB1B14Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.1.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB1B15",
+										              "value": "<p><span class=\"panel-span-medium\">Passwords, authentication tickets, tokens, cookies, and symmetric/private encryption keys must be transmitted over secure protocols.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB1B15Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB1B15Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist": ["AnnexureB_B1_B8"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "B.2",
+										          "Account Creation Requirements",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.2.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB2B21",
+										              "value": "<p><span class=\"panel-span-medium\">The system must require the user to supply a validated email address or mobile phone number.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB2B21Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB2B21Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.2.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB2B22",
+										              "value": "<p><span class=\"panel-span-medium\">User account registration for consumer type services, such as Post Paid or DSL, must require the customer to provide 100 points of identification.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB2B22Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB2B22Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.2.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB2B23",
+										              "value": "<p><span class=\"panel-span-medium\">If a user account has more than one service associated with it, the customer must be able to see all services on that account.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB2B23Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB2B23Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.2.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB2B24",
+										              "value": "<p><span class=\"panel-span-medium\">Registration of user accounts should include requiring the customer to choose 3 from set of 5 Information Security approved Cognitive passwords.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB2B24Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB2B24Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist": ["AnnexureB_B1_B8"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "B.3",
+										          "Account Removal Requirements",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.3.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB3B31",
+										              "value": "<p><span class=\"panel-span-medium\">The system must permanently disables user accounts linked to consumer services (mobile, DSL, etc) upon service disconnection.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB3B31Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB3B31Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.3.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB3B32",
+										              "value": "<p><span class=\"panel-span-medium\">Permanently disabled user accounts must not be recycled or reused.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB3B32Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB3B32Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist": ["AnnexureB_B1_B8"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "B.4",
+										          "Password Recovery Controls",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.4.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB4B41",
+										              "value": "<p><span class=\"panel-span-medium\">The system must provide users with the ability to change their own password, upon providing their current password.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB4B41Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB4B41Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist": ["AnnexureB_B1_B8"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "B.5",
+										          "Administration Access to Web Portal",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.5.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB5B51",
+										              "value": "<p><span class=\"panel-span-medium\">Access to the admin portal to manage the site must be restricted to known customer's IP address, unless customer specifically requests otherwise.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB5B51Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB5B51Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist": ["AnnexureB_B1_B8"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "B.6",
+										          "Authentication Handling and Processing",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.6.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB6B61",
+										              "value": "<p><span class=\"panel-span-medium\">If federating authentication and identities, the method must follow tested industry standard such as SAML 2.0.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB6B61Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB6B61Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.6.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB6B62",
+										              "value": "<p><span class=\"panel-span-medium\">Only standard and tested authentication services/mechanisms must be used.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB6B62Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB6B62Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.6.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB6B63",
+										              "value": "<p><span class=\"panel-span-medium\">All authentication processing must be performed by the server (or trusted system) and never by the client.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB6B63Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB6B63Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.6.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB6B64",
+										              "value": "<p><span class=\"panel-span-medium\">The system must ensure that authentication is required for all pages and resources, except those deemed public</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB6B64Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB6B64Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.6.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB6B65",
+										              "value": "<p><span class=\"panel-span-medium\">The authentication controls must Fail securely, and deny access.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB6B65Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB6B65Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.6.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB6B66",
+										              "value": "<p><span class=\"panel-span-medium\">The application must only use the HTTP POST method to transmit authentication credentials</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB6B66Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB6B66Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.6.7"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB6B67",
+										              "value": "<p><span class=\"panel-span-medium\">The application must restrict access to all privileged resources.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB6B67Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB6B67Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist": ["AnnexureB_B1_B8"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "B.7",
+										          "Session Handling",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.7.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB7B71",
+										              "value": "<p><span class=\"panel-span-medium\">The session identifier creation process must use industry standard algorithms.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB7B71Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB7B71Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.7.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB7B72",
+										              "value": "<p><span class=\"panel-span-medium\">The Logout functionality should be available from all pages and fully terminate the associated session or connection</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB7B72Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB7B72Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.7.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB7B73",
+										              "value": "<p><span class=\"panel-span-medium\">The system must not allow Persistent logins; the session inactivity timeout must be set according to sensitivity of data being accessed.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB7B73Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB7B73Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.7.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB7B74",
+										              "value": "<p><span class=\"panel-span-medium\">The system must generate a new session identifier on any re-authentication.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB7B74Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB7B74Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.7.5"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB7B75",
+										              "value": "<p><span class=\"panel-span-medium\">Session identifiers must only be located in the HTTP cookie header, and must not be exposed in URLs, error messages, GET parameters or logs.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB7B75Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB7B75Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.7.6"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB7B76",
+										              "value": "<p><span class=\"panel-span-medium\">A new session identifier must be generated if the connection changes IP address location. HTTP to HTTPS, as can occur during authentication.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB7B76Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB7B76Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.7.7"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB7B77",
+										              "value": "<p><span class=\"panel-span-medium\">If the application handles Sensitive data, HTTPS must be used throughout the application and not switch from HTTP to HTTPS.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB7B77Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB7B77Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.7.8"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB7B78",
+										              "value": "<p><span class=\"panel-span-medium\">Input forms performing highly Sensitive or Critical operations must use per-request, strong random tokens to protect against cross site request forgery.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB7B78Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB7B78Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.7.9"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB7B79",
+										              "value": "<p><span class=\"panel-span-medium\">The application must set the \"secure\" attribute for cookies transmitted over a TLS connection</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB7B79Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB7B79Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.7.10"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB7B710",
+										              "value": "<p><span class=\"panel-span-medium\">Unless client-side scripts are specifically required to read cookie data, the HttpOnly attribute must be set on cookies.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB7B710Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB7B710Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist": ["AnnexureB_B1_B8"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "B.8",
+										          "Application and System to System Authentication",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.8.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB8B81",
+										              "value": "<p><span class=\"panel-span-medium\">The application must connect to the databases using a least privileged account, and NOT the SA account, or other accounts that are member of sysadmin and db_owner roles.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB8B81Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB8B81Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.8.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB8B82",
+										              "value": "<p><span class=\"panel-span-medium\">System passwords are not hard coded anywhere.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB8B82Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB8B82Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.8.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB8B83",
+										              "value": "<p><span class=\"panel-span-medium\">Application system accounts are assigned a human owner, who will be responsible for changing the password at a minimum every 12 months.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB8B83Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB8B83Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"dependencynameslist":["AnnexureB_B9"],
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "B.9",
+										          "Additional Requirements for HIGH Value Applications",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.9.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB9B91",
+										              "value": "<p><span class=\"panel-span-medium\">The system must force a reset of the password every 3 months.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB9B91Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB9B91Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.9.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB9B92",
+										              "value": "<p><span class=\"panel-span-medium\">If the account owner fails to reset their password by the expiry due date, the system must lock the account.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB9B92Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB9B92Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.9.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB9B93",
+										              "value": "<p><span class=\"panel-span-medium\">Accounts that are locked must require a CSR or delegated admin unlock it. The unlocking process must require sending a new temporary password to the account holders designated email address.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB9B93Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB9B93Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "B.9.4"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "CFAAnnexBB9B94",
+										              "value": "<p><span class=\"panel-span-medium\">Account housekeeping must be performed every 3 months to enforce disabling of accounts that have become inactive or no longer used.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "CFAAnnexBB9B94Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "CFAAnnexBB9B94Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 }
+				     	]
+				    }
+				}
+			]
+	     }
+	 },
+	 {
+	     "paneldefault": {
+	     	"dependencynameslist": ["AnnexureH"],
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Annexure H - Header Enrichment"
+				     }
+			    },
+			    {
+				    "panelbody": {
+				    	"type": "panelcontent",
+				     	"value": [
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "H.1",
+										          "Header Fields",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "H.1.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexHH1H11",
+										              "value": "<p><span class=\"panel-span-medium\">The receiving system must validate the header fields and check against double entries of service number or other values.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexHH1H11Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexHH1H11Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "H.1.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexHH1H12",
+										              "value": "<p><span class=\"panel-span-medium\">A valid business reason must exist for requirement of each header field.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexHH1H12Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexHH1H12Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 },
+							 {
+							     "panelbody": {
+							     	"type":"paneltable",
+							     	"value": [
+							     		{
+							     			"tables": [
+										      {
+										        "headers": [
+										          "H.2",
+										          "Encryption and Key handling",
+										          "",
+										          "Evidence"
+										        ],
+										        "width": [
+										          "1",
+										          "6",
+										          "3",
+										          "2"
+										        ],
+										        "rows": [
+										          [
+										            {
+										              "type": "text",
+										              "value": "H.2.1"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexHH2H21",
+										              "value": "<p><span class=\"panel-span-medium\">Where TLS cannot be implemented, all header fields must be encrypted.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexHH2H21Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexHH2H21Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "H.2.2"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexHH2H22",
+										              "value": "<p><span class=\"panel-span-medium\">The secret key must be unique to each vendor.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexHH2H22Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexHH2H22Comments",
+										              "rows": "2"
+										            }
+										          ],
+										          [
+										            {
+										              "type": "text",
+										              "value": "H.2.3"
+										            },
+										            {
+										              "type": "textandcomments",
+													  "id": "APSAnnexHH2H23",
+										              "value": "<p><span class=\"panel-span-medium\">The key must be exchanged out of band such as SMS, and if sent via email or file exchange, the key must be placed in an encrypted (AES 256) zip file.</span></p>"
+										            },
+										            {
+										              "type": "radio",
+										              "paramname": "APSAnnexHH2H23Radio",
+										              "options": [
+										                "Yes",
+										                "No",
+										                "N/A"
+										              ]
+										            },
+										            {
+										              "type": "textarea",
+										              "paramname": "APSAnnexHH2H23Comments",
+										              "rows": "2"
+										            }
+										          ]
+										        ]
+										      }
+										    ]
+										}
+							     	]
+							     }
+							 }
+				     	]
+				    }
+				}
+			]
+	     }
+	 },
+	 {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Related Information"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "endUserCFAComments"
+				     		}
+			     }
+			    }
+			]
+		}
+	 }
+	]
+}

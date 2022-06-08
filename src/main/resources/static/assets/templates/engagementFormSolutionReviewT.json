@@ -1,0 +1,400 @@
+{
+  "dynamicEngFormSolRevDivData": [
+	{
+	     "panelheader": {
+	     	"value": "Section 1 Solution Review"
+	     }
+     },
+     {
+     	"breakline": true
+     },
+     {
+	     "panelheader": {
+	     	"value": "1. Data Classification"
+	     }
+     },
+     {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">Here we determine what type of data is being accessed and \/ or stored. Different security requirements apply to the various combinations of data type and classification.<\/span> <\/p> <p> <span class=\"panel-span-medium\">See the <a href=\"https:\/\/espressoau.singtelgroup.net\/depts\/infosec\/InfoSec%20Policies%20Standards%20%20Guidelines\/Information%20Security%20Standard%20-%20Information%20Classification.docx\">Optus Information Classification<\/a> Policy and <a href=\"https:\/\/ibox.optus.com.au\/infosec\/Docs\/appendix-A.docx\">Appendix A<\/a> for more information on this subject. <\/span> <\/p>"
+	     }
+	 },
+	 {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Data Type",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.1.1"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR111",
+				              "value": "<p><span class=\"panel-span-medium\">Personal and Business Customer Information</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR111Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR111Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.1.2"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR112",
+				              "value": "<p><span class=\"panel-span-medium\">Business Customer Confidential Information</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR112Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR112Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.1.3"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR113",
+				              "value": "<p><span class=\"panel-span-medium\">Government Contracts Confidential Information</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR113Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR113Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.1.4"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR114",
+				              "value": "<p><span class=\"panel-span-medium\">Information Protected under Deeds of with the Government</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR114Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR114Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.1.5"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR115",
+				              "value": "<p><span class=\"panel-span-medium\">Information Protected under Defence Contracts</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR115Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR115Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.1.6"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR116",
+				              "value": "<p><span class=\"panel-span-medium\">Optus Sensitive Information</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR116Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR116Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.1.7"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR117",
+				              "value": "<p><span class=\"panel-span-medium\">Credit Card & Financial Records</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR117Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR117Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+		},
+		{
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Data Type",
+				          "",
+				          "Comment"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.2.1"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR121",
+				              "value": "<p><span class=\"panel-span-medium\">Optus Restricted</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR121Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR121Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.2.2"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR122",
+				              "value": "<p><span class=\"panel-span-medium\">Optus Confidential</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR122Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR122Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.2.3"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR123",
+				              "value": "<p><span class=\"panel-span-medium\">Optus Secret</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR123Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR123Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.2.4"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR124",
+				              "value": "<p><span class=\"panel-span-medium\">Customer Private Confidential</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR124Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR124Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "1.2.5"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SR125",
+				              "value": "<p><span class=\"panel-span-medium\">Customer Private Highly Confidential</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SR125Radio",
+				              "options": [
+				                "Yes",
+				                "No",
+				                "N/A"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SR125Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+		},
+		{
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Additional comments and Related Information"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "endUserSRAdditComments"
+				     		}
+			     }
+			    }
+			]
+		}
+	 }
+  ]				
+}

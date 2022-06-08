@@ -1,0 +1,284 @@
+{
+  "dynamicEngFormSecurityTestingDivData": [
+    {
+	     "panelheader": {
+	     	"value": "12. Security Testing"
+	     }
+    },
+    {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">Please answer the below questions to determine the type of security testing required.<\/span> <\/p>"	
+	     }
+	},
+	{
+     	"breakline": true
+    },
+	{
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Penetration Test",
+				          "",
+				          "Notes"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "12.1.1"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SECTEST1211",
+				              "value": "<p><span class=\"panel-span-medium\">Does the scope of the review include any Internet facing application (Optus branded)?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SECTEST1211Radio",
+				              "options": [
+				                "Yes",
+				                "No"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SECTEST1211Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "12.1.2"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SECTEST1212",
+				              "value": "<p><span class=\"panel-span-medium\">Does the project/change involve building a web or mobile application or making a change to input, logic or code to an existing application (Optus branded)?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SECTEST1212Radio",
+				              "options": [
+				                "Yes",
+				                "No"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SECTEST1212Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "12.1.3"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SECTEST1213",
+				              "value": "<p><span class=\"panel-span-medium\">Will the project introduce or modify any High risk application?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SECTEST1213Radio",
+				              "options": [
+				                "Yes",
+				                "No"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SECTEST1213Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">If the answer to any of the above questions is 'YES', the penetration test needs to be completed and reviewed by InfoSec Team.<\/span> <\/p>"	
+	     }
+	  },
+	  {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Source code review",
+				          "",
+				          "Comments"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "12.2.1"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SECTEST1221",
+				              "value": "<p><span class=\"panel-span-medium\">Does the scope of the review include the application that is built in-house?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SECTEST1221Radio",
+				              "options": [
+				                "Yes",
+				                "No"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SECTEST1221Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "12.2.2"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SECTEST1222",
+				              "value": "<p><span class=\"panel-span-medium\">Does the scope of the review include the application specifically built for Optus by the external developers?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SECTEST1222Radio",
+				              "options": [
+				                "Yes",
+				                "No"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SECTEST1222Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">If the answer to any of the above questions is 'YES', the source code assessment is required.<\/span> <\/p>"	
+	     }
+	  },
+	  {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "Vulnerability Scan",
+				          "",
+				          "Comments"
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "12.3"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "SECTEST123",
+				              "value": "<p><span class=\"panel-span-medium\">Does the scope of the review include any servers / platforms hosted internally in Optus network?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "SECTEST123Radio",
+				              "options": [
+				                "Yes",
+				                "No"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "SECTEST123Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+	  },
+	  {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">If the answer to any of the above questions is 'YES', the vulnerability scan needs to be completed and reviewed by InfoSec team.<\/span> <\/p>"	
+	     }
+	  },
+	  {
+	     "paneldefault": {
+	     	"value": [
+	     		{ 
+			     	"panelheader": {
+				     	"value": "Security testing feedback"
+				     }
+			    },
+			    {
+			    	"panelbody": {
+				    	"type":"paneltextarea",
+				     	"value": {
+				     		    "type": "textarea",
+						        "width": 12,
+						        "length": 500,
+						        "rows": "3",
+						        "paramname": "endUserSecTestComments"
+				     	}
+			        }
+			    }
+			]
+		}
+	 }
+  ]			
+}

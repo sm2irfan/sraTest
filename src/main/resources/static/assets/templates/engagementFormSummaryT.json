@@ -1,0 +1,664 @@
+{
+  "dynamicEngFormSummaryDivData1": [
+  	 {
+	     "panelheader": {
+	     	"value": "Summary Questions"
+	     }
+     },
+     {
+     	"breakline": true
+     },
+     {
+	     "panelheader": {
+	     	"value": "Scope of the Review"
+	     }
+     }
+  ],
+  "dynamicEngFormSummaryDivData2": [
+	   {
+	     "panelbody": {
+	     	"type":"panelrows",
+	     	"value": [
+	     		{
+	     			"rows": [
+				      {
+				        "columns": [
+				          {
+				            "width": 6,
+				            "rows": [
+				              {
+				                "columns": [
+				                  {
+				                    "type": "label",
+				                    "width": 4,
+				                    "labelname": "*Line Of Business"
+				                  },
+				                  {
+				                    "type": "text",
+				                    "width": 8,
+
+				                    "paramname": "lineOfBusiness"
+				                  }
+				                ]
+				              }
+				            ]
+				          },
+				          {
+				            "width": 6,
+				            "rows": [
+				              {
+				                "columns": [
+				                  {
+				                    "type": "label",
+				                    "width": 4,
+				                    "labelname": "*CRIMS or Clarity code"
+				                  },
+				                  {
+				                    "type": "text",
+				                    "width": 8,
+
+				                    "paramname": "code"
+				                  }
+				                ]
+				              }
+				            ]
+				          }
+				        ]
+				      }			      
+				    ]
+	     		}
+	     	]
+	     }
+	   },
+	   {
+	     "panelbody": {
+	     	"type":"panelrows",
+	     	"value": [
+	     		{
+	     			"rows": [
+				      {
+				        "columns": [
+				          {
+				            "width": 12,
+				            "rows": [
+				              {
+				                "columns": [
+				                  {
+				                    "type": "label",
+				                    "width": 2,
+				                    "labelname": "<a href=\"https://espressoau.singtelgroup.net/depts/infose/SitePages/Cyber%20Security%20Categories.aspx\"><span style=\"font-size: small;\"><strong>Application/System Cyber Security Category</strong></span></a>"
+				                  },
+				                  {
+				                    "type": "select",
+				                    "width": 10,
+				                    "paramname": "securityCategory",
+				                    "options": [
+				                      {
+				                        "optkey": "Cat1",
+				                        "optval": "Cat 1 - Critical or Sensitive system/application that is Internet/External facing"
+				                      },
+				                      {
+				                        "optkey": "Cat2",
+				                        "optval": "Cat 2 - Critical or Sensitive system/application that is NOT Internet/external facing"
+				                      },
+				                      {
+				                        "optkey": "Cat3",
+				                        "optval": "Cat 3 - Internet/External facing AND NOT Critical and NOT Sensitive system/application"
+				                      },
+				                      {
+				                        "optkey": "Cat4",
+				                        "optval": "Cat 4 - Non-Critical/Non-Sensitive system/application that is NOT Internet/external facing"
+				                      }
+				                    ]
+				                  }
+				                ]
+				              }
+				            ]
+				          }
+				        ]
+				      }		      
+				    ]
+	     		}
+	     	]
+	     }
+	   },
+	   {
+     	  "breakline": true
+       },
+	   {
+	     "panelbody": {
+	     	"type":"panelrows",
+	     	"value": [
+	     		{
+	     			"rows": [
+				      {
+				        "columns": [
+				          {
+				            "width": 6,
+				            "rows": [
+				              {
+				                "columns": [
+				                  {
+				                    "type": "label",
+				                    "width": 4,
+				                    "labelname": "*RFS Date"
+				                  },
+				                  {
+				                    "type": "date",
+				                    "width": 8,
+
+				                    "paramname": "rfsDate"
+				                  }
+				                ]
+				              }
+				            ]
+				          }
+				        ]
+				      }	      
+				    ]
+	     		}
+	     	]
+	     }
+	   },
+	   {
+	     "panelbody": {
+	     	"type":"panelrows",
+	     	"value": [
+	     		{
+	     			"rows": [
+				      {
+				        "columns": [
+					          {
+					            "width": 12,
+					            "rows": [
+					              {
+					                "columns": [
+					                  {
+					                    "type": "label",
+					                    "width": 2,
+					                    "labelname": "*Please describe the scope of the security review"
+					                  },
+					                  {
+					                    "type": "textarea",
+					                    "width": 10,
+					                    "rows": "3",
+					                    "paramname": "endUserScopeOfSecurity"
+					                  }
+					                ]
+					              }
+					            ]
+					          }
+					      ]
+					    }
+					  ]  
+			      }
+	     	]
+	     }
+	   },
+	   {
+	     "panelbody": {
+	     	"type":"panelrows",
+	     	"value": [
+	     		{
+	     			"rows": [
+				      {
+				        "columns": [
+				          {
+				            "width": 12,
+				            "rows": [
+				              {
+				                "columns": [
+				                  {
+				                    "type": "label",
+				                    "width": 2,
+				                    "labelname": "Notes"
+				                  },
+				                  {
+				                    "type": "textarea",
+				                    "width": 10,
+				                    "length": 500,
+				                    "rows": "2",
+				                    "paramname": "notes"
+				                  }
+				                ]
+				              }
+				            ]
+				          }
+				        ]
+				       }
+				     ]
+			      }
+	     	]
+	     }
+	   },	
+	   {
+	      "breakline": true
+	   },   
+	   {
+	     "panelbody": {
+	     	"type":"paneltext",
+	     	"value": "<p> <span class=\"panel-span-medium\">Here we determine what type of data is being accessed and \/ or stored. Different security requirements apply to the various combinations of data type and classification.<\/span> <\/p> <p> <span class=\"panel-span-medium\">See the <a href=\"https:\/\/espressoau.singtelgroup.net\/depts\/infosec\/InfoSec%20Policies%20Standards%20%20Guidelines\/Information%20Security%20Standard%20-%20Information%20Classification.docx\">Optus Information Classification<\/a> Policy and <a href=\"https:\/\/ibox.optus.com.au\/infosec\/Docs\/appendix-A.docx\">Appendix A<\/a> for more information on this subject. <\/span> <\/p>"
+	     }
+	   },
+	   {
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "",
+				          ""
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "5"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.0"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "value": "<p><span class=\"panel-span-medium\">Does the scope of the review include a new system or an existing system?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S0Radio",
+				              "options": [
+				                "New",
+				                "Existing"
+				              ]
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+		},
+		{
+	     "panelbody": {
+	     	"type":"paneltable",
+	     	"value": [
+	     		{
+	     			"tables": [
+				      {
+				        "headers": [
+				          "#",
+				          "",
+				          "",
+				          ""
+				        ],
+				        "width": [
+				          "1",
+				          "6",
+				          "3",
+				          "2"
+				        ],
+				        "rows": [
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.1"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S1",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of Servers, applications, infrastructure, or network elements(not capacity expansion only).</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S1Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "No Impact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S1Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.2"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S2",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of Servers, applications, infrastructure, or network elements(not capacity expansion only).</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S2Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S2Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.3"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S3",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of Servers, applications, infrastructure, or network elements(not capacity expansion only).</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S3Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S3Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.4"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S4",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of Transmission of email or SMS communications to customers.</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S4Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S4Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.5"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S5",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of User management process outside of the standard Optus tools: AD, UAM, MyAccount, PRP, OB SMB, ServiceNow or TACACS.</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S5Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S5Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.6"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S6",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of Access to, processing of, or storing financial records such as credit cards and bank account numbers.</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S6Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S6Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.7"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S7",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of Access to, processing of, or storing personal or business customer information, or Optus/Singtel proprietary information.</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S7Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S7Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.8"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S8",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of the Internal interface contracts (not including the file transfer via OFT).</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S8Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S8Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.9"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S9",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of the External interface contracts (not including the file transfer via OFT).</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S9Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S9Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.10"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S10",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of Outsourcing, offshoring contracts or use of any Cloud services.</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S10Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S10Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.11"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S11",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of Vendor engagement (onshore or offshore).</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S11Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S11Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.12"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S12",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of Connectivity to external parties including vendor remote access and/or public networks (e.g. Internet)?</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S12Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S12Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.13"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S13",
+				              "value": "<p><span class=\"panel-span-medium\">The configuration of firewalls and / or network infrastructure. If related to capacity increase, please provide the additional info in the notes section below.</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S13Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S13Comments",
+				              "rows": "2"
+				            }
+				          ],
+				          [
+				            {
+				              "type": "text",
+				              "value": "S.14"
+				            },
+				            {
+				              "type": "textandcomments",
+				              "id": "S14",
+				              "value": "<p><span class=\"panel-span-medium\">New or change of the transfer of files across the Internet.</span></p>"
+				            },
+				            {
+				              "type": "radio",
+				              "paramname": "S14Radio",
+				              "options": [
+				                "New",
+				                "Change",
+				                "NoImpact"
+				              ]
+				            },
+				            {
+				              "type": "textarea",
+				              "paramname": "S14Comments",
+				              "rows": "2"
+				            }
+				          ]
+				        ]
+				      }
+				    ]
+				}
+	     	 ]
+	      }
+		}
+   ]
+}
